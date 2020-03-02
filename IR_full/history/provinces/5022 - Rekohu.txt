@@ -1,0 +1,17 @@
+# No previous file for Beyond Typus province
+
+owner = MRO
+controller = MRO
+add_core = MRO
+culture = moriori
+religion = tapu 
+capital = "Waitangi"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 2
+base_manpower = 1
+
+discovered_by = oceanic 
+
+1773.1.17 = { discovered_by = GBR }

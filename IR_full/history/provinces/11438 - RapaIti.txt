@@ -1,0 +1,18 @@
+
+owner = RPA
+controller = RPA
+add_core = RPA
+is_city = yes
+culture = rapan
+religion = tapu 
+capital = "Ahurei"
+trade_goods = ir_potatoes #taro, yams, and sweet potatoes, too cold for coconuts
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 1
+
+discovered_by = oceanic 
+
+1606.1.1 = { discovered_by = SPA }
+

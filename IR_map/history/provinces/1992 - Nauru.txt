@@ -1,0 +1,19 @@
+#1992 - Nauru
+
+owner = NRU
+controller = NRU
+add_core = NRU
+culture = nauruan
+religion = tapu
+capital = "Yaren"
+trade_goods = fish
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+discovered_by = oceanic 
+
+1798.11.8 = {
+	discovered_by = GBR	# John Fearn
+}

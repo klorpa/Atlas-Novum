@@ -182,6 +182,7 @@ Bologna - 3041 - 4730
 Trieste - 3049 - 4738
 Viterbo - 3295 - Terragona - 4732
 Molise - 3038 - 4733
+4737 - Girgenti - 3071
 
 OTHER:
 
@@ -190,7 +191,6 @@ OTHER:
 4734 - Avellino - 7010
 4735 - Arborea - 5090
 4736 - Trapani - 7000
-4737 - Girgenti - 3071
 
 -Yugoslavia
 Rijeka/Modrus - 3191/3196 - 4752

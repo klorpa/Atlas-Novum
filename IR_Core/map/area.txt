@@ -467,7 +467,7 @@ rockall_sea_area = {
 ########################################
 
 venetia_area = { #4
-	108 112 1774 7076 7086 7087 7077 7081 7084 7085
+	108 112 1774 7076 7086 7087 4729 7081 7084 7085
 }
 
 lombardy_area = { #5			#repurposed into lower lombardy
@@ -491,11 +491,11 @@ corsica_sardinia_area = { #3
 }
 
 sicily_area = { #4
-	124 125 2982 4737 7000 7001 7002 7160 7161 7164 #126 7073 # REMOVED TO A 2 Province area
+	124 125 2982 4737 4736 7001 7002 7160 7161 7164 #126 7073 # REMOVED TO A 2 Province area
 }
 
 naples_area = { #3 
-	121 2983 3039 7009 7010 7012 7016 7017 10172
+	121 2983 3039 7009 4734 7012 7016 7017 10172
 }
 
 calabria_area = { #3 (+Lucania)
@@ -1076,7 +1076,7 @@ northern_greece_area = { #Northern Greece		#BT Epirus
 }
 
 thrace_area = { #3
-	149 151 3170 4705 7130 7134 7135 7136 7137 7138 10156
+	149 151 3170 4705 7130 7134 4779 7136 7137 7138 10156
 }
 
 wallachia_area = { #3
@@ -3307,7 +3307,7 @@ northern_macedonia_area = {
 }
 
 sardinia_area = {
-	127 2986 5090 5091 7095 7097 7099 10002 10003 10004
+	127 2986 4735 5091 7095 7097 7099 10002 10003 10004
 }
 
 #########################
@@ -3376,7 +3376,7 @@ north_marche_area = {
 }
 
 umbria_area = {
-	2976 7022 7023 7024 7029 7035 7036 
+	2976 7022 4731 7024 7029 7035 7036 
 }
 
 abruzzo_area = {
@@ -4097,7 +4097,7 @@ felvidek_area = { 1318 10413 10417 10427 10459 10415 7188 } #Upper Hungary
 carpathian_ruthenia_area = { 162 1952 3146 10428 10207 }
 alfold_area = {	155 1953 4125 3148 4126  10418 10429 10430 10431 }
 syrmia_area = { } #DECPRICATED #Arg: un-depreciate it somehow. Take out new areas before vanilla ones in case it interferes with any missions, achievements, etc and adds lines to error log
-serbia_area = { 141 3185 4176 7716 4755 4239 7717 1827 }
+serbia_area = { 141 3185 4176 4757 4755 4239 7717 1827 }
 banat_area = { 156 1954 7741 7743 7744 7745 7746 }
 slavonia_area = { 152 1767 4756 7737 7738 7739 10208 }
 vojvodina_area = { 4126 4173 7718 10434 }
@@ -4169,18 +4169,18 @@ muenster_area = { }
 westphalia_area = { 82 86 3199 3200 3292 10536 }
 paderborn_area = { 2972 4775 3203 10538 10555 }
 ems_area = { 56 2973 10546 10554 10589 }
-mittelmark_area = { 50 51 1759 4786 10568 10570 2993 }
-weser_area = { 44 54 55 1874 10572 10591 2971 10688 }
+mittelmark_area = { 50 51 1759 4786 4748 10570 2993 }
+weser_area = { 44 54 55 1874 10572 4771 2971 10688 }
 altmark_area = { }
-lower_saxony_area = { 53 1857 10566 10592 7810 2964 }
+lower_saxony_area = { 53 1857 10566 4772 7810 2964 }
 north_rhine_area = { 85 1878 4768 10590 84 2975 }
 lower_rhineland_area = { 80 1760 4767 10564 10595 } #CUT 10596
-lausitz_area = { 60 1763 10560 10561 10567 }
-south_saxony_area = { 61 62 2965 10558 10526 7181 } #meissen
+lausitz_area = { 60 1763 4778 10561 10567 }
+south_saxony_area = { 61 62 2965 10558 4744 7181 } #meissen
 thuringia_area = { 63 4716 4743 10540 10557 10588 10593 }
 northern_saxony_area = { color = { 229 20 20 } 
 	52 58 59 4741 10539 10565 10569 } #3 (Saxe-Altmark) Sachsen
-braunschweig_area = { 57 1758 4773 10523 10524 10529 10547 10556 }
+braunschweig_area = { 57 1758 4773 10523 10524 4742 10547 10556 }
 hesse_area = { 81 83 1762 3201 3209 4774 10537 10543 10521 10520 }
 nassau_area = {  }
 uckermark_area = { }
@@ -4188,7 +4188,7 @@ uckermark_area = { }
 #mecklenburg_area = { 45 46 2996}
 mecklenburg_area = { 46 2996 7811 7812 7813 10544 4749 }
 holstein_area = { 44 45 1775 1857 4141 7775 7776 7777 7778 10498 }
-neumark_area = { color = { 234 232 44 }	49 2969 7821 7822 }
+neumark_area = { color = { 234 232 44 }	49 2969 7821 4747 }
 #neumark_area = {
 #	color = { 234 232 44 }
 #	49 2969 10436 10594  }	#cut 50 60 1763
@@ -4201,31 +4201,31 @@ vorpommern_area = { 47 2994 4745 7815 7816 7817 }
 konigsberg_area = { 41 7833 7834 7862 }
 
 #South Germany
-alsace_area = {	75 1880 10594 10597 7943 7944 10605 } # 10596 10595 - BT 12 CUT
+alsace_area = {	75 1880 10594 10597 4765 7944 10605 } # 10596 10595 - BT 12 CUT
 palatinate_area = { 77 78 1761 1876 3207 4718 10550 10562 10563 10601 }
 franconia_area = { 66 67 71 79 10522 10559 10581 10580 }
-tirol_area = { 73 10578 7260 7265 3053 7261 }
+tirol_area = { 73 10578 7260 7265 4710 7261 }
 mainz_area = {  } #DEPRICATED
-upper_rhineland_area = { 72 74 10551 10552 10553 10576 } #baden
+upper_rhineland_area = { 72 74 4714 10552 10553 10576 } #baden
 upper_swabia_area = { 68 69 1868 10545 10575 10579  }
-lower_swabia_area = {  1872 4715 10587 10582 }
-wurttemberg_area = { 70 10577 10548 }
+lower_swabia_area = {  1872 4715 4711 10582 }
+wurttemberg_area = { 70 10577 4713 }
 konstanz_area = { 3204 4712 10549 10576 }
-lower_bavaria_area = { 64 2956 10201 10574 10541 10542 10535 }
-upper_bavaria_area = { 65 2955 10203 10585 10534 7185 7184 }
-carinthia_area = { 128 10406 10407 1768 10573 }
+lower_bavaria_area = { 64 2956 10201 4709 10541 10542 4707 }
+upper_bavaria_area = { 65 2955 10203 10585 4708 7185 7184 }
+carinthia_area = { 128 10406 10407 1768 4759 }
 inner_austria_area = { 1863 10530 132 4751 10408 10409 10410 7182 7177 7103 }
 salzburg_area = { 76 7187 10584 7186 10533 }
 austria_proper_area = {	color = { 213 40 40 }
 	134 1770 4762 10531 7176 7175 7172 7173 10405 }
-upper_austria_area = { 133 10200 10532 10583 7178 7180 7183 }
+upper_austria_area = { 133 10200 4760 4761 7178 7180 7183 }
 carniola_area = { 129 7760 7761 7762 7764 7763 }
 upper_palatinate_area = { 1757 2957 10202 10586 4717 10571 } #NEEDS BALANCING FROM FRANCONIA
 
 #France
 savoy_dauphine_area = { 205 4719 10670 10092 10093 }
 dauphine_area = { 204 3089 10659 10675 10648 }
-toulouse_area = { 196 198 4112 10642 10645 7901 7902 7906 7907 } # 10674 - BT 12 CUT
+toulouse_area = { 196 198 4112 10642 10645 7901 4695 7906 7907 } # 10674 - BT 12 CUT
 bourgogne_area = {
 	color = { 144 0 32 }
 	192 1877 4392 7938 7951 8028 7939 191 10669 } # 10617 10653 - BT 12 CUT
@@ -4264,7 +4264,7 @@ hautes_provence_area = { }
 # Swiss
 switzerland_area = { 166 10083 10085 10087 165 4721 10082  }
 zurich_area = { 1869 1870 10088 10091 }
-grl_area = { 1873 4739 3294 10086 10089 }
+grl_area = { 1873 4740 3294 4722 10089 }
 romandie_area = { 1867 1871 4720 10081 10084 10090 }
 #basel_area = { }
 
@@ -4300,7 +4300,7 @@ ross_area = { 3137 4110 10312 10339 10340 }
 lowlands_area = { 248 250 251 4361 3139 10310 10346 10347 10348 } #East Lowlands ( Borders & Lothian)
 #BT
 cornwall_area = { 233 4373 10377 10378 10381 }
-yorkshire_area = { 4367 245 10350 10355 10359 10360 }
+yorkshire_area = { 4367 245 10350 10355 4785 10360 }
 #IR
 lancashire_area = { 244 4375 10368 10369 10349 }
 sussex_kent_area = { 235 4371 10356 10370 10371 10184 }
@@ -4366,9 +4366,9 @@ malaga_area = { 226 4546 10000 10001 10005 8082 }
 granada_area = { 222 223 8083 8084 8085 8086 } #10002 10003 10004 - BT 12 CUT
 castille_area = { #3
 	color = { 58 58 207 }
-	4551 4552 10022 8036 217 8052 8047 2755 8053
+	4551 4789 10022 8036 217 8052 8047 2755 8053
 }
-burgos_area = { 1746 10024 10025 10026 8034 10021 215 }
+burgos_area = { 1746 10024 10025 4552 8034 10021 215 }
 #rioja_area = { 2755 2989 10027 8047 }
 zamora_area = { 4553 10019 216 10016 10017 }
 toledo_area = { 219 10042 2754 8121 8059 10041 8057 8055 } # 10040 - BT 12 CUT
@@ -5949,8 +5949,6 @@ unused_provinces_area = {
 	3037 3038 3041 3043 3044 3046 3047 3049 3050 3054 3055 3056 3061 3065 3075 3084 3088 3090 3092 3100 3106 3109 3141 3163 3166 3171 3172 3173 3175 3176 3178 3183 3184 3192 3196 3197 3198 3202 3205 3208 3210 3211 3212 3213 3214 3216 3295 3296
 	3143 3215 3217 
 	6929 7296 10066 10067 11795
-		
-	4740
 }
 
 thames_area = { }

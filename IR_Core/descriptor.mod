@@ -11,6 +11,7 @@ replace_path="common/colonial_regions"
 replace_path="common/trade_companies"
 replace_path="common/bookmarks"
 replace_path="common/buildings"
+replace_path="localisation"
 picture="IR_icon.png"
 supported_version="1.30.*.*"
 tags={

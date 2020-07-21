@@ -347,7 +347,7 @@ impassable = {
 	#Special provinces used for localization
 	10034
 	#New Petrus Mountains
-	10525 10682
+	4763 10682
 	#Albanian Mountains 
 	10147
 	#Anatolia Mountains

@@ -106,7 +106,7 @@ hab_slot_1 = {
               remove_adm_power = 300
 			  remove_mil_power = 300
 			  remove_dip_power = 300 
-			  remove_treasury = 500
+			  add_treasury = -500
 			
 			}
 			
@@ -1336,7 +1336,7 @@ hab_slot_4 = { #protect the balkans
 				}
 				add_permanent_claim = ROOT
 			}
-			rascia_area_area = {
+			rascia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }
@@ -1366,7 +1366,7 @@ hab_slot_4 = { #protect the balkans
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			rascia_area_area = {
+			rascia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}			
@@ -1831,7 +1831,7 @@ hab_slot_5 = {
 			stability = 3
 		}
 		effect = {
-			
+			#REPLACE WITH EVENT
 			
 			###Wien
         	134 = { add_base_production = 3 }
@@ -1850,10 +1850,10 @@ hab_slot_5 = {
 
 			
 			hidden_effect = {
-              remove_adm_power = 200
-			  remove_mil_power = 200
-			  remove_dip_power = 200
-			  remove_treasury = 800
+              add_adm_power = -200
+			  add_mil_power = -200
+			  add_dip_power = -200
+			  add_treasury = -800
 			
 			}
 			

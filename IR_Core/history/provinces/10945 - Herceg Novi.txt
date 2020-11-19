@@ -1,6 +1,6 @@
 
-owner = DSS
-controller = DSS
+owner = HRZ
+controller = HRZ
 culture = montenegrin
 religion = catholic
 capital = "Herceg Novi"
@@ -11,7 +11,7 @@ base_production = 1
 base_manpower = 2 
 is_city = yes
 fort_15th = yes	
-add_core = DSS
+add_core = HRZ
 
 discovered_by = western
 discovered_by = eastern

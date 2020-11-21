@@ -103,9 +103,9 @@ hab_slot_1 = {
 		    }
 			
 			hidden_effect = {
-              remove_adm_power = 300
-			  remove_mil_power = 300
-			  remove_dip_power = 300 
+              add_adm_power = -300
+			  add_mil_power = -300
+			  add_dip_power = -300 
 			  add_treasury = -500
 			
 			}
@@ -1624,7 +1624,7 @@ hab_slot_4 = { #protect the balkans
 	hab_conquer_mocha = { #Conquer Yemen
 		icon = mission_market_place_with_asian_traders
 		required_missions = { hab_conquer_hedjaz }
-		positon = 14
+		position = 14
 		provinces_to_highlight = {
 			OR = {
 				area = tihama_al_yemen_area
@@ -2078,12 +2078,9 @@ hab_slot_5 = {
 				duration = -1
 			}
          	
-		}
-        hidden_effect = {
-		    remove_country_modifier = {
-				name = "habsburg_early_reforms"
-				duration = -1
+			hidden_effect = {
+				remove_country_modifier = "habsburg_early_reforms"
 			}
-		}	
+		}
     }
-}		
+}

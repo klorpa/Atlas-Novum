@@ -3189,7 +3189,7 @@ province;red;green;blue;x;x
 3188;236;247;40;AmyzCut;x
 3189;111;217;188;AmyzCut;x
 3190;68;194;65;CUT130;x
-3191;223;173;14;Fiume;x
+3191;223;173;14;Modrus;x
 3192;114;207;82;CUT130;x
 3193;21;104;166;Tropolje;x
 3194;191;26;111;Usora;x
@@ -7177,7 +7177,7 @@ province;red;green;blue;x;x
 7176;50;100;200;Amyz-Melk;x
 7177;50;100;75;Amyz-Schaldming;x
 7178;50;100;150;Amyz-Wels;x
-7179;50;100;225;Amyz-JindrichuvHradec;x
+7179;50;100;225;Tábor;x
 7180;50;150;25;Amyz-Freistadt;x
 7181;50;150;100;Amyz-Freiberg;x
 7182;50;150;175;Amyz-Krems;x
@@ -7761,7 +7761,7 @@ province;red;green;blue;x;x
 7760;150;50;24;Koper;x
 7761;150;50;99;InnerCarniola;x
 7762;150;50;174;UpperCarniola;x
-7763;150;50;249;Celje;x
+7763;150;50;249;Maribor;x
 7764;150;50;49;Prekmurje;x
 7765;150;50;124;Harsovo;x
 7766;150;50;199;Helsingborg;x
@@ -10079,7 +10079,7 @@ province;red;green;blue;x;x
 10078;3;5;206;Porto Santo;x
 10079;3;5;207;Faial;x
 10080;3;5;208;Terceira;x
-10081;3;5;209;Fribourg;x
+10081;3;5;209;Basel;x
 10082;18;35;210;Solothurn;x
 10083;33;65;211;Lucerne;x
 10084;48;95;212;Martigny;x
@@ -10553,7 +10553,7 @@ province;red;green;blue;x;x
 10552;83;88;209;Offenburg;x
 10553;103;108;210;Markgräflerland;x
 10554;3;8;166;Bentheim;x
-10555;23;28;167;Ravensberg;x
+10555;23;28;167;Minden;x
 10556;43;48;168;Hildesheim;x
 10557;63;68;169;Gotha;x
 10558;83;88;170;Meissen;x
@@ -10561,7 +10561,7 @@ province;red;green;blue;x;x
 10560;123;128;172;CUT130;x
 10561;143;148;173;Lübben;x
 10562;183;188;175;Worms;x
-10563;243;248;178;Zweibrücken;x
+10563;243;248;178;Saarbrücken;x
 10564;3;8;179;Eifel;x
 10565;22;28;180;Jerichow;x
 10566;41;48;181;Dannenberg;x
@@ -10579,7 +10579,7 @@ province;red;green;blue;x;x
 10578;223;228;177;Landeck;x
 10579;123;128;211;Biberach;x
 10580;163;168;213;Forcheim;x
-10581;3;8;98;Rothenburg;x
+10581;3;8;98;Heilbronn;x
 10582;163;168;200;SwabischHall;x
 10583;183;188;201;CUT130;x
 10584;203;208;202;Pinzgau;x
@@ -10662,13 +10662,13 @@ province;red;green;blue;x;x
 10661;193;208;189;IRBTCUT;x
 10662;212;228;190;IRBTCUT;x
 10663;231;248;191;IRBTCUT;x
-10664;50;175;75;Blois;x
+10664;50;175;75;Dunois;x
 10665;7;7;159;UNUSED;x
 10666;103;189;96;IRBTCUT;x
 10667;7;7;160;UNUSED;x
 10668;7;7;161;UNUSED;x
 10669;155;168;187;Auxerrois;x
-10670;73;135;72;Bresse;x
+10670;73;135;72;Genevois;x
 10671;7;7;162;UNUSED;x
 10672;7;7;163;UNUSED;x
 10673;88;162;84;Orange;x

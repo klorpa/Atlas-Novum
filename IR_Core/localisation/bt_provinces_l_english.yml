@@ -1745,7 +1745,7 @@
  PROV7176:0 "Melk"
  PROV7177:0 "Schaldming"
  PROV7178:0 "Wels"
- PROV7179:0 "Tábor" #"Jindrichuv Hradec"
+ PROV7179:0 "Tábor" #Jindrichuv Hradec
  PROV7180:0 "Freistadt"
  PROV7181:0 "Freiberg"
  PROV7182:0 "Leoben"
@@ -2102,7 +2102,7 @@
  PROV7951:0 "Semur"
  PROV7952:0 "Châtillon"
  PROV7953:0 "St. Dizier"
- PROV7954:0 "Helder"
+ PROV7954:0 "Westfriesland"
  PROV7955:0 "Sens"
  PROV7956:0 "Meaux"
  PROV7957:0 "Étampes"
@@ -2123,7 +2123,7 @@
  PROV7972:0 "Harfleur"
  PROV7973:0 "Ternois"
  PROV7974:0 "Béthune"
- PROV7975:0 "Dort"          #Localised naming to Dordrecht
+ PROV7975:0 "Rijnmond" #Dort/Dordrecht
  PROV7976:0 "Valenciennes"
  PROV7977:0 "Maubeuge"
  PROV7978:0 "Blois"

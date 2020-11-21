@@ -6,7 +6,7 @@ Rysel - 3065 - equivalent
 -North Germany
 Julich - 3197 - equivalent
 Dortmund - 3292 - equivalent
-Minden - 3202 - Bielefeld (x)
+Minden - 3202 - Bielefeld (x) - SWITCHEMS
 Gottingen - 3215 - equivalent
 Stargard - 3217 - equivalent
 Priegnitz - 3216 - equivalent
@@ -16,8 +16,8 @@ Weimar - 3212 - equivalent
 Saale - 3214 - Halle (x)
 -South Germany
 Aschaffenburg - 3208 - equivalent
-Saarbrücken - 3198 - Zweibrucken (x)
-Heilbronn - 3206 - Rothenburg (x)
+Saarbrücken - 3198 - Zweibrucken (x) _ SWITCHEMS
+Heilbronn - 3206 - Rothenburg (x) - SWITCHEMS
 Bayreuth - 3212 - equivalent
 Vorarlberg - 3053 - equivalent
 Botzen - 3048 - equivalent
@@ -27,7 +27,8 @@ Pardubice - 3143 - equivalent
 Valassko - 3297 - equivalent
 Opole - 3141 - equivalent
 -Austria
-Marburg - 3050 - Celje (x)
+Marburg - 3050 > 7763
+Celje - 7763 > 3050 - Celje
 Kalonisberg - 3052 - Wienerwald
 -France
 Verdun - 3069 - equivalent
@@ -140,12 +141,13 @@ DORTMUND REPLACE WITH RAVENSBURG: 69
 
 
 -Bohemia/Silesia
-Tabor - 3296 - Jindrichuv Hradec - 4725
+Tabor - 3296 -> 7129 
+J. 7129 - Jindrichuv Hradec - 4725
 Pardubice - 3143 - 4724
-Valassko - 3297 - Ostrava 4726
+Valassko - 3297 - Ostrava 4726 ??
 Opole - 3141 - 4723
 -Austria
-Marburg - 3050 - Celje - 4751
+Marburg - 3050 - Celje - 4751 SWITCH
 Kalonisberg - 3052 - Wienerwald - 4762
 
 OTHER:
@@ -154,11 +156,11 @@ OTHER:
 
 -France
 Verdun - 3069 - 4766
-Vesoul - 3092 - Salins 4764
+Vesoul - 3092 - Salins 4764 - FIX LATER
 La Marche - 3109 - 4697
 Forcalquier - 3090 - Toulon (x) - Forq = 2991 Toulon = 4696
 Foix - 3084 - 4694
-Dunois - 3075 - Blois - 4776
+Dunois - 3075 - Blois - 4776 SWITCH
 Forez - 3088 - 4777
 
 OTHER:
@@ -166,8 +168,9 @@ OTHER:
 
 -Savoy-Switzerland
 Geneva - 3056 - 4720
-Genevese - 3046 - Bresse - 4719
-Basel - 3055 - Freibourg - 4721
+Genevese - 3046 -> 10670
+Bresse - 10670 Bresse - 4719
+Basel - 3055 - Freibourg - 4721 SWITCH
 
 OTHER:
 
@@ -198,7 +201,12 @@ Spalato - 3192 - Zara - 4753
 Podrinje - 3187 - 4755
 Usora - 3194 - Podrinje 4757
 Cattaro - 3184 - 4754
+
+SLAVONIA:
 Virovitica - 3190 - Belovar - 4756
+1767 Virovitica?
+152 Pozega.Bjelovar? Slavonia
+
 -Rumelia
 Avlonya - 3181 - Kruje 4750
 Aetolia - 3175 - 4699
@@ -258,7 +266,7 @@ OTHER:
 4716;223;230;73;Coburg;x
 4717;184;22;22;Bayreuth;x
 4718;8;175;128;Aschaffenburg;x
-4719;161;116;28;Annecy;x
+4719;161;116;28;Annecy;x <REALITY BRESSE
 4720;29;123;204;Geneva;x
 4721;192;98;255;Fribourg;x
 4722;33;178;172;Illanz;x

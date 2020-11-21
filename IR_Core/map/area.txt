@@ -4124,7 +4124,7 @@ budjak_area = { 1756 7278 10412 10209 }
 silesia_area = { 263 4723 3142 10458 10463 10465 10468 10469 } #technically Nysa is part of Lower Silesia, this just works better.
 lower_silesia_area = { 264 2966 4238 10464 10466 10467 10470 10471 10690 }
 bohemia_area = { 266 2970 4724 10484 10478 10477 10482 7171 }
-budejovice_area = { 10486 2968 4725 10479 7179 7169 }
+budejovice_area = { 10486 2968 7179 10479 4725 7169 }
 erzgebirge_area = { 267 1771 2967 10485 7170 }
 moravia_area = { 265 4237 4726 10480 10481 10483 7167 7162 }
 wielkopolska_area = { 254 255 2963 4526 10442 10445 10461 10462 }
@@ -4173,14 +4173,14 @@ artesia_area = { 87 88 4769 10506 10509 10511 } #artois and french flanders 1052
 
 #North Germany
 westphalia_area = { 82 86 3199 3200 3292 10536 }
-paderborn_area = { 2972 4775 3203 10538 10555 }
+paderborn_area = { 2972 10555 3203 10538 4775 }
 north_westphalia_area = { 56 2973 10546 10554 10589 }
 mittelmark_area = { 50 51 1759 4786 4748 10570 2993 }
 weser_area = { 44 54 55 1874 10572 4771 2971 10688 }
 altmark_area = { }
 lower_saxony_area = { 53 1857 10566 4772 7810 2964 }
 north_rhine_area = { 85 1878 4768 10590 84 2975 }
-lower_rhineland_area = { 80 1760 4767 10564 10595 } #CUT 10596
+lower_rhineland_area = { 80 1760 10563 10564 10595 } #CUT 10596
 lusatia_area = { 60 1763 4778 10561 10567 }
 south_saxony_area = { 61 62 2965 10558 4744 7181 } #meissen
 thuringia_area = { 63 4716 4743 10540 10557 10588 10593 }
@@ -4208,7 +4208,7 @@ konigsberg_area = { 41 7833 7834 7862 }
 
 #South Germany
 alsace_area = {	75 1880 10594 10597 4765 7944 10605 } # 10596 10595 - BT 12 CUT
-palatinate_area = { 77 78 1761 1876 3207 4718 10550 10562 10563 10601 }
+palatinate_area = { 77 78 1761 1876 3207 4718 10550 10562 4767 10601 }
 franconia_area = { 66 67 71 79 10522 10559 10581 10580 }
 tirol_area = { 73 10578 7260 7265 4710 7261 }
 mainz_area = {  } #DEPRICATED
@@ -4220,18 +4220,18 @@ konstanz_area = { 3204 4712 10549 10576 }
 lower_bavaria_area = { 64 2956 10201 4709 10541 10542 4707 }
 upper_bavaria_area = { 65 2955 10203 10585 4708 7185 7184 }
 carinthia_area = { 128 10406 10407 1768 4759 }
-inner_austria_area = { 1863 10530 132 4751 10408 10409 10410 7182 7177 7103 }
+inner_austria_area = { 1863 10530 132 7763 10408 10409 10410 7182 7177 7103 }
 salzburg_area = { 76 7187 10584 7186 10533 }
 austria_proper_area = {	color = { 213 40 40 }
 	134 1770 4762 10531 7176 7175 7172 7173 10405 }
 upper_austria_area = { 133 10200 4760 4761 7178 7180 7183 }
-carniola_area = { 129 7760 7761 7762 7764 7763 }
+carniola_area = { 129 7760 7761 7762 7764 4751 }
 upper_palatinate_area = { 1757 2957 10202 10586 4717 10571 } #NEEDS BALANCING FROM FRANCONIA
 
 #France
 savoy_dauphine_area = { 205 4719 10670 10092 10093 }
 dauphine_area = { 204 3089 7910 10675 10648 }
-toulouse_area = { 196 198 4112 7905 10642 10645 7901 4695 7907 } # 10674 - BT 12 CUT
+toulouse_area = { 196 198 4112 7905 10642 10645 7901 4694 4695 7907 } # 10674 - BT 12 CUT
 bourgogne_area = {
 	color = { 144 0 32 }
 	192 1877 4392 7938 7951 8028 7939 191 10669 } # 10617 10653 - BT 12 CUT
@@ -4243,7 +4243,7 @@ loire_area = { #4
 	color = { 231 143 5 }
 	179 4389 7935 7936 7959 10624 10626 }
 anjou_area = { 177 178 7988 7989 7980 7990 7991 }  #Basse-Loire?
-orleans_area = { 184 185 4776 4388 7979 7981 10664 } 
+orleans_area = { 184 185 10664 4388 7979 7981 4776 } 
 lyonais_area = { 203 7911 7908 7909 4777 }
 languedoc_area = { 200 2753 3085 4391 10643 7898 7899 7906 } # 10667 10644 10649 - BT 12 CUT
 provence_area = { 201 202 4696 2991 7892 10673 7894 7893 7891 7890 } # 10646 10660 10678 - BT 12 CUT
@@ -4252,7 +4252,7 @@ normandy_area = { 168 1879 4385 7983 7984 7985 7986 7987 }
 channel_islands_area = { 3110 10182 }
 verdun_area = { 187 188 7947 10656 4766 } #Trois Echeves
 lorraine_area = { 189 10650 7946 7945 7949 10606 10607 10610 } # 10605 10652 10681 - BT 12 CUT
-pyrenees_area = { color = { 230 245 230 } 176 4694 7921 7919 7923 10638 173 175 3083 10633 7924 }
+pyrenees_area = { color = { 230 245 230 } 176 7921 7919 7923 10638 173 175 3083 10633 7924 }
 reims_area = { 181 186 3070 7956 10612 }
 champagne_area = { 3071 4390 7955 7950 10616 10657 }
 upper_brittany_area = { 169 7995 4384 172 7992 7994 7993 8013 7996 }
@@ -4268,10 +4268,10 @@ gascogne_area = {  }
 
 
 # Swiss
-switzerland_area = { 166 10083 10085 10087 165 4721 10082  }
+switzerland_area = { 166 10083 10085 10087 165 10081 10082  }
 zurich_area = { 1869 1870 10088 10091 }
 grl_area = { 1873 4740 3294 4722 10089 }
-romandie_area = { 1867 1871 4720 10081 10084 10090 }
+romandie_area = { 1867 1871 4720 4721 10084 10090 }
 #basel_area = { }
 
 #Ireland

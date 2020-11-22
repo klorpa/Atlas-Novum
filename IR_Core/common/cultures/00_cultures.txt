@@ -1697,7 +1697,7 @@ iberian	= {
 		}
 	}
 	asturian = {
-		primary = ATS
+		primary = ASU
 	}
 	murcian = {
 		primary = MUR

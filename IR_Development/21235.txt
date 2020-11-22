@@ -1,0 +1,60 @@
+LUS > SOR
+DSS - HUM > Hrz - Herzegovina
+
+NYS - Nysa - NIE
+OPV - Opava - TRO
+TSC - Teschen - TES
+SEV - Sevilla
+ZAG - Zagan
+LGN - Leignitz > LEG
+OLS - Olesnica > OLE
+BZG - Brzeg - BEG
+OSW - Oswiecim - ASC
+ROH - Rohan
+RET - Retz
+PHV - Pethievre
+WFD - Waterford
+WEX - Wexford
+LAI - Laigin
+LAO - Loigs
+DMS - Desmond
+CRK - Cork
+MCM - Munster
+OSV - Beare
+FTZ - Kerry
+KEN - Nenagh
+THO - Thomond
+RSC - Roscommon
+GLW - Galway
+I4R - Iar Connact
+UML - Umaill
+MYO - Mayo
+SLN - Sligo
+TLS - Tulsk
+FLY - Offaly
+ORD - Ormond
+KID - Kildare
+L1T - Leitrim
+AN4 - Annaly
+BRF - Breifne - BIF
+FRG - Fermanagh - FGH
+TRY - Tyrconnel
+TYR - Tyrone
+OCN - Coleraine
+M0G - Monaghan
+IVG - Iveagh
+CLN - Clandeboye
+
+
+RAC - Ratibor
+
+
+Tournai TOA - Doornik DOO
+ARS - ATS Artois
+LAO - Laon
+RHM - Rheims
+
+
+BT CHANGES:
+
+DELETE: BLG SZO TRN PGI MNT LPP

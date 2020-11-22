@@ -3,10 +3,10 @@
 #Scandinavia
 AAL = "countries/Aaland.txt"
 #JMT = "countries/Jamtland.txt" IR equiv.
-JUT = "countries/Jutland.txt"
+#JUT = "countries/Jutland.txt" IR equiv.
 SCN = "countries/Scania.txt"
 TAV = "countries/Tavastia.txt"
-ZEA = "countries/Zealand.txt"
+#ZEA = "countries/Zealand.txt" IR equiv.
 
 #France
 #PRI = "countries/Paris.txt" IR tag confl.

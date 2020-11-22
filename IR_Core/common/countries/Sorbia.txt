@@ -1,10 +1,9 @@
-#Swidnica
+#Country Name: Please see filename.
+#Copied from Glogau with some extra ship names.
 
 graphical_culture = westerngfx
 
-color = { 237 183 196 }
-
-preferred_religion = catholic
+color = { 67  80  128 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -37,8 +36,8 @@ historical_units = {
 monarch_names = {
 	"Fryderyk #0" = 80
 	"Jan #0" = 40
-	"Henryk #8" = 40
-	"Ludwik #2" = 20
+	"Henryk #0" = 40
+	"Ludwik #0" = 20
 	"Jan Krystian #0" = 20
 	"Jerzy #0" = 20
 	"Jerzy Rudolf #0" = 20
@@ -90,4 +89,5 @@ ship_names = {
 	Teschen Falkenberg "Cosel-Beuthen" Oppeln Ratibor
 	Breslau Sagan Oels Steinau "Liegnitz-Brieg" Glogau
 	Münsterberg "Neisse-Ottmachau" "Schweidnitz-Jauer"
+	Zossen Guben Cottbus Luckau Spremberg Bautzen Görlitz
 }

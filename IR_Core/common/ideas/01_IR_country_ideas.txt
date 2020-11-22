@@ -213,7 +213,7 @@ MLA_ideas = {
     }
 
     trigger = {
-		tag = MLA
+		tag = MJO
     }
     free = yes        #will be added at load.
 
@@ -759,7 +759,7 @@ ATS_ideas = {
 		global_manpower_modifier = 0.15
 	}
 	trigger = {
-		tag = ATS
+		tag = ASU
 	}
 	free = yes
 	asu_reconquista = {
@@ -797,7 +797,7 @@ VAL_ideas = {
     }
 
     trigger = {
-        tag = VLC
+        tag = VAL
     }
     free = yes		#will be added at load.
 

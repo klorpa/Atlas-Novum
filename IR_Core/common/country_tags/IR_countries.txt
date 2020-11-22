@@ -3,10 +3,8 @@ CNR = "countries/Canaries.txt"
 TAO = "countries/Taoro.txt"
 GLD = "countries/Galdar.txt"
 BNR = "countries/Benahoare.txt"
-#SEV = "countries/Sevilla.txt"
+SEV = "countries/Sevilla.txt"
 CRD = "countries/Cordoba.txt"
-#TLD = "countries/Toledo.txt"
-#JAE = "countries/Jaen.txt"
 VZC = "countries/Vizcaya.txt"
 EXT = "countries/Extremadura.txt"
 #ATS = "countries/Asturias.txt" #PRETTY SURE VANILLA HAS THIS.
@@ -18,9 +16,6 @@ LLI = "countries/Lleida.txt"
 A7D = "countries/Andorra.txt"
 LSA = "countries/Lusitania.txt"
 SN7 = "countries/SanSebastian.txt"
-#MUR = "countries/Murcia.txt" BT
-
-VLC = "countries/Valencia.txt" #keeping VLC because issues with VAL
 GR4 = "countries/ChristianGranada.txt"
 
 #France
@@ -66,10 +61,10 @@ OCN = "countries/Colerain.txt"
 FTZ = "countries/Kerry.txt"
 KEN = "countries/Nenagh.txt"
 OSV = "countries/Beare.txt"
-LA0 = "countries/Laois.txt"
+LAO = "countries/Laois.txt"
 
 #Britain and Wales
-#BRC = "countries/Brecon.txt"
+BRC = "countries/Brecon.txt"
 CSR = "countries/Cheshire.txt"
 DBG = "countries/Denbigh.txt"
 GLM = "countries/Glamorgan.txt"
@@ -117,6 +112,9 @@ SCH = "countries/Schaffhausen.txt"
 NEU = "countries/Neuchatel.txt"
 STH = "countries/Solothurn.txt"
 VAD = "countries/Vaud.txt"
+
+#Yugoslavia
+DSS = "countries/SaintSava.txt"
 
 ###HRE
 #SleswigHolstein
@@ -245,7 +243,7 @@ BOI = "countries/Bouillon.txt"
 BTV = "countries/Batavia.txt" #PENDING REMOVAL
 DOO = "countries/Doornik.txt"
 LBG = "countries/Limburg.txt"
-NMR = "countries/Namur.txt"
+NAM = "countries/Namur.txt"
 WLL = "countries/Wallonie.txt"
 ZEE = "countries/Zeeland.txt"
 ZUT = "countries/Zutphen.txt"
@@ -268,7 +266,7 @@ DRE = "countries/Drenthe.txt"
 NGC = "countries/NorthGermanConfederation.txt"
 SGC = "countries/SouthGermanConfederation.txt"
 DNC = "countries/DanubeConfederacy.txt"
-RYN = "countries/Rheinland.txt"
+RHN = "countries/Rheinland.txt"
 DPU = "countries/DuchyPrussia.txt"
 
 #Scandinavia
@@ -324,6 +322,9 @@ ZLN = "countries/DanishZealand.txt"
 SNS = "countries/Serenissima.txt"
 LMB = "countries/Lombardy.txt"
 LGA = "countries/Liguria.txt"
+CAA = "countries/Calabria.txt"			#Regional cores for shattering. Dub change from CLB to CBR in 1.30 due to tag conflict.
+F8M = "countries/Fermo.txt"
+S0R = "countries/Sora.txt" #Dub changed from SOR to SRA in 1.30 due to tag conflict.
 #TSI = "countries/TwoSicilies.txt" #CONVERT TO VANILLA
 #TTN = "countries/Tortona.txt"
 
@@ -545,7 +546,7 @@ BZH = "countries/Bzhedug.txt"
 BLY = "countries/Besleney.txt"
 TMR = "countries/Temirgoy.txt"
 ZHN = "countries/Zhaney.txt"
-MKH = "countries/Mamkhegh.txt"
+MGH = "countries/Mamkhegh.txt"
 #Upper Caucasus
 ABZ = "countries/Abazinia.txt"
 KCY = "countries/Karachay.txt"
@@ -604,7 +605,7 @@ QBL = "countries/Qabala.txt"
 QUB = "countries/Quba.txt"
 SKR = "countries/Shamkor.txt"
 SLY = "countries/Salyan.txt"
-S4R = "countries/Sarab.txt"
+SRA = "countries/Sarab.txt"
 SHG = "countries/Shuragel.txt"
 TRZ = "countries/Tabriz.txt"
 TLY = "countries/Talysh.txt"
@@ -689,11 +690,14 @@ URF = "countries/Urfa.txt"
 TRC = "countries/Tercan.txt"
 
 #African
+RGG = "countries/Regraga.txt"
+
 #From Comoros mod by MilkandLettuce
 BBO = "countries/Bambao.txt"
-AJN = "countries/Anjouan.txt"
+ANJ = "countries/Anjouan.txt"
 MWA = "countries/Mwali.txt"
 MAO = "countries/Maore.txt"
+
 
 #From Riches of Africa mod by Hellwyr
 AMX = "countries/Aman.txt"
@@ -781,7 +785,7 @@ OSK = "countries/Osaki.txt"
 OUE = "countries/Ogigayatsu-Uesugi.txt"
 ROK = "countries/Rokkaku.txt"
 RZJ = "countries/Ryuzoji.txt"
-SGA = "countries/Sagara.txt"
+SAG = "countries/Sagara.txt"
 SAT = "countries/Satomi.txt"
 
 #Korean Releasables - LeRoi
@@ -951,7 +955,7 @@ BGB = "countries/Bagobo.txt"
 BBN = "countries/Blaan.txt"
 MHL = "countries/Maharlika.txt"
 PPP = "countries/Philippines.txt"
-BNS = "countries/Bangsamoro.txt"
+BGM = "countries/Bangsamoro.txt"
 KKB = "countries/Kankabatok.txt"
 M6T = "countries/Mactan.txt"
 KAG = "countries/Katugasan.txt"
@@ -1152,7 +1156,7 @@ MRG = "countries/Maraga.txt"
 FGT = "countries/Fangatau.txt"
 HAO = "countries/Hao.txt"
 TPH = "countries/Tapuhoe.txt"
-T4U = "countries/Tauaro.txt"
+TRO = "countries/Tauaro.txt"
 
 #New Zealand
 AO7 = "countries/Aotearoa.txt"
@@ -1234,7 +1238,6 @@ TIT = "countries/Taborites.txt"
 UHN = "countries/UpperHungary.txt"
 USR = "countries/Usora.txt"
 ZKR = "countries/Zakarpattia.txt"
-#SLA = "countries/Slavonia.txt"
 
 #Balkans and Dalmatia
 ARN = "countries/Arianiti.txt"

@@ -249,7 +249,7 @@
 7737 = "Biba"
 152 = "Iassai" #Roman transliteration
 131 = "Andautonia" #Roman
-4752 = "Metulon" #Roman transliteration
+3191 = "Metulon" #Roman transliteration
 1826 = "Ankos" #Ancus
 7730 = "Moukouron" #Muccurum
 7734 = "Senia" #Roman
@@ -277,15 +277,15 @@
 7722 = "Chotza" #Found on Bosnian wiki, and this one looked sufficiently Greek.
 
 #Histria
-4751 = "Poitobio"
+7763 = "Poitobio"
 129 = "Emona"
-3191 = "Tarsatike"
+4752 = "Tarsatike"
 7082 = "Phlanona" #Using Plomin
 7090 = "Parention" #Rovigno is Ruginium in Latin, or Rouginion in Greek most likely. Parentium, Porec, however seemed to have been more important during Roman times however.
 130 = "Pola"
 4738 = "Tergeste"
 7764 = "Nebiodon" #Neviodunum close by.
-7763 = "Keleia" #Latin Celeia
+4751 = "Keleia" #Latin Celeia
 7761 = "Postoumia " #There is Logatec, Longatikon, Longaticum, close by, but I use the Italian name of Postumia, which I transliterate into Greek.
 7762 = "Chotzebia" #This is somewhat made up as there's no settlement in the region. It's transliterated sort of from Italian Cocevie and the Slavic Hvojčevje.
 7760 = "Karnion" #Using Kranj that is mysteriously missing from the map, roman Carnium.
@@ -1187,7 +1187,7 @@
 3089 = "Soion" #Due to Valencia being a BIG city in Hispania I let that take precedence. Thus this becomes Soion (Soyon, a place close by)
 204 = "Gratianoupolis" #Instead of Koularo because I want more poli
 205 = "Leminkon"
-4719 = "Boutai"
+10670 = "Boutai"
 203 = "Lougdon" #Changing to the similar Singidunum -> Singidon
 
 #Burgundy
@@ -1241,7 +1241,7 @@
 #Loire
 178 = "Iouliomagos"
 177 = "Ouindinon"
-4776 = "Kastrodon" #Dunense Castrum, thus Kastrodon
+10664 = "Kastrodon" #Dunense Castrum, thus Kastrodon
 184 = "Kenabon"
 179 = "Bitourigai"
 4389 = "Kaisarodon" #This is the (old) name of Tours (New one is Turones, from where Tours derives), but Tours itself is HORRIBLY misplaced on the map. It should rather be in its northwestern corner, right at the river split. Was 3076 pre-1.25
@@ -1385,7 +1385,7 @@
 1867 = "Lousonna"
 1871 = "Oktodoros"
 165 = "Brenodon"
-4721 = "Basileia"
+10081 = "Basileia"
 
 #Switzerland
 1869 = "Bindonissa" #Technically not correct but it's close by. Turikon is kind of weird.
@@ -1446,7 +1446,7 @@
 78 = "Mogontiakon"
 
 #Lower Rheinland
-4767 = "Kontiomagos"
+10563 = "Kontiomagos"
 80 = "Treberon" #Augusta Treverorum
 1760 = "Konphluentes"
 1878 = "Akygrannis" #Aquae Granni

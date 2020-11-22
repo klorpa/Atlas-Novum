@@ -39,7 +39,7 @@
 #4239 = "Szerém"
 3189 = "Bács"
 4756 = "Pozsega"
-3191 = "Fiume"
+4752 = "Fiume"
 136 = "Spalato"
 
 

@@ -157,7 +157,7 @@
 4720 = "Ginebra"
 103 = "Dole"
 1867 = "Lausana"
-10081 = "Friburg"
+4721 = "Friburg"
 
 #Burgundy
 1877 = "Xarolesa"

@@ -138,7 +138,7 @@
 2808 = "Neu-Augsburg"
 
 #BTP
-4751 = "Marburg"
+7763 = "Marburg"
 4769 = "Rijsel"
 3066 = "Arelerland"
 3134 = "Apenrade"
@@ -163,7 +163,7 @@
 4239 = "Syrmien"
 3189 = "Batschka"
 4756 = "Poschegg"
-3191 = "Pflaum"
+4752 = "Pflaum"
 2963 = "Flatow"
 4526 = "Gnesen"
 3220 = "Tschenstochau"
@@ -175,7 +175,7 @@
 3230 = "Wiek"
 3231 = "Dagö"
 3294 = "Veltlin"
-4725 = "Tabor"
+7179 = "Tabor"
 4726 = "Zlin"
 
 1873 = "Drei Bünde"
@@ -193,7 +193,7 @@
 4115 = "Homel"
 90 = "Brügge"
 
-4752 = "Karlstadt" #Today known as Karlovac, since Modrus seems to not have been a thing in German?
+3191 = "Karlstadt" #Today known as Karlovac, since Modrus seems to not have been a thing in German?
 110 = "Trient"
 
 
@@ -484,7 +484,7 @@
 #2017 Mar 11
 #Switzerland and Savoia
 4720 = "Genf"
-4719 = "Obersavoyen"
+10670 = "Obersavoyen"
 
 #Greece
 4701 = "Achaia"
@@ -2105,7 +2105,7 @@
 
 #france
 185 = "Nemur"
-4776 = "Dünne"
+10664 = "Dünne"
 4390 = "Troien"
 
 #US
@@ -2581,7 +2581,7 @@
 7761 = "Innerkrain"
 129 = "Oberkrain"
 7762 = "Unterkrain"
-7763 = "Zilli"
+4751 = "Zilli"
 7764 = "Rudolfswerth"
 7760 = "Bischoflack"
 

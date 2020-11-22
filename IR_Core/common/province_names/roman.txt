@@ -75,13 +75,13 @@
 1880 = "Aldechiarcum"
 2753 = "Narbo"
 4696 = "Telo Martius"
-4719 = "Genavensis"
+10670 = "Genavensis"
 3068 = "Cornugallia"
 4766 = "Virodunum"
 3070 = "Laudunum"
 3071 = "Durocatalaunum"
 3073 = "Ebroicum"
-4776 = "Dunensium"
+10664 = "Dunensium"
 3077 = "Parthiniacum"
 3081 = "Aginnum"
 3083 = "Labrit"
@@ -357,7 +357,7 @@
 1760 = "Confluentes"
 2973 = "Amisia" #For the Ems river
 2975 = "Clivia"
-4767 = "Saravipons"
+10563 = "Saravipons"
 
 #Germania Superior
 64 = "Landishuta"
@@ -417,7 +417,7 @@
 202 = "Avenio" #Or "Avennionis"
 
 #switzerland 
-4721 = "Basilia"
+10081 = "Basilia"
 4720 = "Genava"
 
 #italy
@@ -644,12 +644,12 @@
 152 = "Varasdinum"
 1826 = "Ortopla"
 1954 = "Contra Margum"
-4751 = "Poetovio"
+7763 = "Poetovio"
 4754 = "Ascrivium"
-3191 = "Tarastica"
+4752 = "Tarastica"
 136 = "Spalatum"
 3194 = "Salines"
-4752 = "Metulum"
+3191 = "Metulum"
 3193 = "Palva"
 4173 = "Cusum"
 4176 = "Viminacum"

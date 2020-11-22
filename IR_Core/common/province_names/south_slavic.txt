@@ -59,7 +59,7 @@
 1769 = "Gorica"
 1863 = "Gradec"
 4758 = "Juzna Tirolska"
-4751 = "Stajerska"
+7763 = "Stajerska"
 3051 = "Gradisce"
 4762 = "Pitija"
 
@@ -378,7 +378,7 @@
 7761 = "Notranjska"
 129 = "Gorenjska" #"Kranjska" #or "Carniola"
 7762 = "Dolenjska"
-7763 = "Celje"
+4751 = "Celje"
 7764 = "Novo Mesto"
 7760 = "Škofja Loka"
 152 = "Bjelovar"

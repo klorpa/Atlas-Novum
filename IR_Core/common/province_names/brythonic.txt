@@ -92,7 +92,7 @@
 1879 = "Orne"
 4388 = "Chartrez"
 3073 = "Evrog"
-4776 = "Dunen"			#Made up by Draiocht, based on Tours to Touren precedent
+10664 = "Dunen"			#Made up by Draiocht, based on Tours to Touren precedent
 4389 = "Touren"
 3077 = "Parzheneg"
 4386 = "Vande"

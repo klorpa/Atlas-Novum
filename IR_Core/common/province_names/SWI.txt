@@ -90,7 +90,7 @@
 199 = "Auvèrnhe" #or "Clarmont"
 203 = "Lyon"
 204 = "Grenoblo"
-4719 = "Haute-Savoie"
+10670 = "Haute-Savoie"
 3070 = "Laon"
 3071 = "Châlons"
 4389 = "Tours"
@@ -154,7 +154,7 @@
 #Austria
 129 = "Kranjska"
 130 = "Eîstria"
-4751 = "Maribor"
+7763 = "Maribor"
 
 #corsica
 1247 = "Pumonti"

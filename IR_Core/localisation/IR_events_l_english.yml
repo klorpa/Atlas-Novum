@@ -1705,6 +1705,34 @@
  partition_georgia.3.a: "Attempt to sway the nobles to support the Imeretian claim."
  partition_georgia.3.b: "Ignore the nobility."
  
+ #IR Flavor Land
+ IR_flavor_LAND.1.t: "Initialize"
+ IR_flavor_LAND.1.desc: "Creates an opportunity"
+ IR_flavor_LAND.1.a: "Close"
+ 
+ IR_flavor_LAND.2.t: "Recent Incidents"
+ IR_flavor_LAND.2.desc: "One of our nobles has angered the rest of the nobility in a string of recent incidents. He has been accused of murder after one of his serfs apperently caused damages to another Nobles farm. The nobility has decided that the only punishment fitting the crime is exile. The noble has requested others to join him on his journey."
+ IR_flavor_LAND.2.a: "Help the exiled noble"
+ IR_flavor_LAND.2.b: "We are not interested in his plight."
+ 
+ IR_flavor_LAND.3.t: "Settlement Discovered"
+ IR_flavor_LAND.3.desc: "Incredibly, the exiled noble has found the Eastern Settlement on Greenland. It's been decades since we have last had contact with the settlers on this barren tundra."
+ IR_flavor_LAND.3.a: "Join the settlement"
+ IR_flavor_LAND.3.b: "Greetings, Breathren"
+ 
+ IR_flavor_LAND.4.t: "No word from the Exiled"
+ IR_flavor_LAND.4.desc: "It's been around a year since we have heard from the exiled noble. He has likely perished and if not is hiding in some far away land."
+ IR_flavor_LAND.4.a: "Good riddance"
+ 
+ IR_flavor_LAND.5.t: "Randomizer"
+ IR_flavor_LAND.5.desc: "Sets up the future"
+ IR_flavor_LAND.5.a: "Close"
+ 
+ IR_flavor_LAND.6.t: "A String of Unfortunate Disasters"
+ IR_flavor_LAND.6.desc: "Everything is going wrong as of late. With the lack of any outside contacts our settlement has been withering for a while now. There is hardly any wood to replace the damage the frost does to our dwellings. There is reports of widespread crop failure and if we do not do something, there is no doubt that we shall perish here."
+ IR_flavor_LAND.6.a: "Attempt an expedition to our Norse brethen"
+ IR_flavor_LAND.6.b: "Work together with the Skrælingjar" 
+ IR_flavor_LAND.6.c: "Sail to the west to the fabled lands of Vinland" 
  
  #LOSS OF CAPITAL DISASTERS
  #Loss of Constantinople

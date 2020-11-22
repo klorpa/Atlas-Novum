@@ -21,7 +21,7 @@ Chrysocyon May 31st 2019
 #Istria
 1769 = "Gorisia"
 4738 = "Trieste"
-3191 = "Fiume"
+4752 = "Fiume"
 7082 = "Pixin"
 7091 = "Tolmìn"
 

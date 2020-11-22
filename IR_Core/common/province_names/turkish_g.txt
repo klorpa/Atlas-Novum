@@ -480,8 +480,8 @@
 129 = "Karin"
 130 = "Astaria"
 1769 = "Ghuriziya"
-4751 = "Maribur"
-3191 = "Fiyumi"
+7763 = "Maribur"
+4752 = "Fiyumi"
 
 #Tunis (copied arab name suggestions for tunis)
 #340 = "Qusantinâ"
@@ -667,7 +667,7 @@
 4754 = "Kotur"
 3193 = "Yayçe"
 3194 = "Biyelina"
-4752 = "Barqu"
+3191 = "Barqu"
 4176 = "Pasarofça"
 7119 = "Ahikerya"
 7143 = "Ferecik"

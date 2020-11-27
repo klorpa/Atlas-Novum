@@ -659,3 +659,7 @@ Do research for Strasburg Alsace bishopric...
 3196 > 3191
 3296 > 7179
 3050 > 7763
+
+10026 > 4552
+3090 > 2991
+3192 > 136

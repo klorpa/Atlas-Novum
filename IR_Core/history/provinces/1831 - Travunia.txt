@@ -1,7 +1,7 @@
 #1831 - Travunia
 
-owner = HRZ
-controller = HRZ
+owner = DSS
+controller = DSS
 culture = zachlumian
 religion = orthodox
 capital = "Onogost"
@@ -12,7 +12,7 @@ base_production = 1
 base_manpower = 1 
 is_city = yes
  
-add_core = HRZ
+add_core = DSS
 
 discovered_by = KAZ
 discovered_by = CRI

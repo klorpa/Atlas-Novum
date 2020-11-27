@@ -55,7 +55,10 @@ country_event = {
 		}
 		hidden_effect = {
 			NAV = { add_treasury = -50 }
-			10124 = { cede_province = NAV }
+			10124 = { 
+						cede_province = NAV 
+						add_core = NAV 
+					}
 			add_country_modifier = {
 				name = navarra_port_sansebastian
 				duration = -1
@@ -68,6 +71,7 @@ country_event = {
 		}
 		CAS = { add_treasury = 50 }
 		custom_tooltip = IR_flavor_NAV.2.a_tooltip
+		}
 	}
 	
 	option = {
@@ -147,7 +151,8 @@ country_event = {
 		}
 	}	
 	option = {
-		name = IR_flavor_NAV.4.a
+		name = IR_flavor_NAV.4.
+		ai_chance = { factor = 100 }
 		ARA = { 
 			country_event = { id = IR_flavor_NAV.5 days = 1 }
 		}
@@ -170,7 +175,6 @@ country_event = {
 	}
 	option = {
 		name = IR_flavor_NAV.4.b
-		ai_chance = { factor = 100 }
 		switch_tag = ARA
 		create_union = NAV
 		ARA = { set_country_flag = john2_flag }
@@ -212,7 +216,7 @@ country_event = {
 		ARA = { 
 			every_subject_country = {
 				if = {
-					limit = { subject_type = dominion }
+					limit = { is_subject_of_type = dominion }
 					NAV = { 
 						create_subject = {
 							subject_type = dominion
@@ -221,7 +225,7 @@ country_event = {
 					}
 				}
 				if = {
-					limit = { subject_type = fief }
+					limit = { is_subject_of_type = fief }
 					NAV = { 
 						create_subject = {
 							subject_type = fief
@@ -230,7 +234,7 @@ country_event = {
 					}
 				}
 				if = {
-					limit = { subject_type = vassal }
+					limit = { is_subject_of_type = vassal }
 					NAV = { 
 						create_subject = {
 							subject_type = vassal
@@ -239,7 +243,7 @@ country_event = {
 					}
 				}
 				if = {
-					limit = { subject_type = personal_union }
+					limit = { is_subject_of_type = personal_union }
 					NAV = { 
 						create_subject = {
 							subject_type = personal_union
@@ -379,15 +383,15 @@ country_event = {
         random_owned_province = {
             spawn_rebels = {
                 type = pretender_rebels
-                size = 2
+                size = 1
                 leader = "Karlos" 
-				monarch_name = "Karlos IV"
 				leader_dynasty = "de Trastámara"
 				win = yes
             }
         }
     }
 }
+
 country_event = {
 	id = IR_flavor_NAV.7
 	title = IR_flavor_NAV.7.t
@@ -500,7 +504,7 @@ country_event = {
 		NAV = { 
 			every_subject_country = {
 				if = {
-					limit = { subject_type = dominion }
+					limit = { is_subject_of_type = dominion }
 					ARA = { 
 						create_subject = {
 							subject_type = dominion
@@ -509,7 +513,7 @@ country_event = {
 					}
 				}
 				else_if = {
-					limit = { subject_type = fief }
+					limit = { is_subject_of_type = fief }
 					ARA = { 
 						create_subject = {
 							subject_type = fief
@@ -518,7 +522,7 @@ country_event = {
 					}
 				}
 				else_if = {
-					limit = { subject_type = vassal }
+					limit = { is_subject_of_type = vassal }
 					ARA = { 
 						create_subject = {
 							subject_type = vassal
@@ -527,11 +531,12 @@ country_event = {
 					}
 				}
 				else_if = {
-					limit = { subject_type = personal_union }
+					limit = { senior_union_with = CAT }
+					break_union = CAT
 					ARA = { 
 						create_subject = {
 							subject_type = dominion
-							subject = PREV
+							subject = CAT
 						}
 					}
 				}
@@ -590,8 +595,10 @@ country_event = {
 				fixed = yes
 			}
 		}
-		}	
-		add_diplomatic_reputation = -1
+		add_country_modifier = { 
+			name = the_proper_old_ways
+			duration = -1
+		}
 		reverse_add_opinion = {
 			who = FRA
 			modifier = insulted
@@ -613,7 +620,10 @@ country_event = {
 			}
 		}	
 		add_stability = -1
-		add_diplomatic_reputation = -1
+		add_country_modifier = { 
+			name = the_proper_old_ways
+			duration = -1
+		}
 		reverse_add_opinion = {
 			who = FRA
 			modifier = insulted
@@ -676,9 +686,8 @@ country_event = {
 		random_owned_province = {
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 2
+				size = 0.7
 				leader = "Karlos" 
-				monarch_name = "Karlos IV"
 				leader_dynasty = "de Trastámara"
 				win = yes
 			}
@@ -718,9 +727,8 @@ country_event = {
 	trigger = {
 		tag = NAV
 		has_country_flag = IR_flavor_NAV.10_happened
-		every_owned_province = { 
-			NOT = { has_rebel_faction = pretender_rebels }
-		}
+		NOT = { num_of_rebel_armies = 1 }
+        NOT = { num_of_rebel_controlled_provinces = 1 }
 		has_ruler = "Juan II"
 	}
 	
@@ -744,24 +752,24 @@ country_event = {
 	trigger = {
 		tag = NAV
 		has_country_flag = IR_flavor_NAV.10_happened
-		every_owned_province = { 
-			NOT = { has_rebel_faction = pretender_rebels }
-		}
+		NOT = { num_of_rebel_armies = 1 }
+        NOT = { num_of_rebel_controlled_provinces = 1 }
 		NOT = { has_ruler = "Juan II" }
 	}
 	option = {
 		name = IR_flavor_NAV.12.a
-		ai_chance = 100
-		define_ruler = {
-			name = "Karlos IV"
+		ai_chance = { factor = 100 }
+		NAV = {
+			define_ruler = {
+				name = "Karlos IV"
 				dynasty = "de Trastámara"
 				adm = 1
 				dip = 4
 				mil = 2
 				age = 23
 				claim = 95
-                fixed = yes
-				
+				fixed = yes
+			}
 		}
 		remove_heir = yes
 		clr_country_flag = IR_flavor_NAV.10_happened
@@ -902,7 +910,7 @@ country_event = {
 	option = {
 		name = IR_flavor_NAV.16.a
         ai_chance = { factor = 100 }
-		PRO - {
+		PRO = {
 			create_union = CAT
 			clr_country_flag = rene_intervenes_flag
 		}
@@ -963,11 +971,10 @@ country_event = {
 		set_country_flag = francis_febo_flag
 		ai_chance = { factor = 100 }
 		define_ruler = {
-			name = "Magdalena"
+			name = "Magdalena de Valois"
 			dynasty = "de Valois"
 			culture = cosmopolitan_french
 			religion = catholic
-			country_of_origin = FRA
 			claim = 95
 			dip = 6
 			adm = 6
@@ -1001,11 +1008,10 @@ country_event = {
 		kill_ruler = yes
 		set_country_flag = catalina_navarra_heiress_flag
 		define_ruler = {
-			name = "Magdalena"
+			name = "Magdalena de Valois"
 			dynasty = "de Valois"
 			culture = cosmopolitan_french
 			religion = catholic
-			country_of_origin = FRA
 			claim = 95
 			dip = 6
 			adm = 6
@@ -1160,17 +1166,15 @@ country_event = {
 	picture = DIPLOMACY_eventPicture
 	
 	fire_only_once = yes
-	is_triggered_only = yes
 	
 	trigger = {
 		has_country_flag = Unhappy_Beaumonts_flag
-		mean_time_to_happen = {
-			months = 24
-		}
 	}
-	
+	mean_time_to_happen = {
+			months = 24
+	}
 	immediate = {
-		clear_country_flag = Unhappy_Beaumonts_flag
+		clr_country_flag = Unhappy_Beaumonts_flag
 	}
 	
 	option = {
@@ -1295,7 +1299,6 @@ country_event = {
 	picture = DIPLOMACY_eventPicture
 	
 	fire_only_once = yes
-	is_triggered_only = yes
 	
 	trigger = {
 		tag = NAV

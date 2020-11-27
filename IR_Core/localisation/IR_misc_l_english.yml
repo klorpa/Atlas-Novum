@@ -208,7 +208,7 @@
  ir_land_2_notifier:0 "Signs of an Christian Settlement"
  
  #IR TOOLTIPS for Scripted Effects
- ir_upgrade_to_empire: "Upgrades to Kingdom Government Rank"
+ ir_upgrade_to_kingdom: "Upgrades to Kingdom Government Rank"
  ir_upgrade_to_empire: "Upgrades to Empire Government Rank"
  
  ####################
@@ -452,11 +452,14 @@
  ANGLOFRANCE_UNION_ADJ: "Anglo-French"
  DOMAINANGEVIN: "Domainae Angevine"
  DOMAINANGEVIN_ADJ: "Angevinian"
- 
- 
+  
  #DISASTER
  
  league_public_weal: "League of Public Weal"
  desc_league_public_weal: "League of Public Weal"
  italian_wars: "Italian Wars"
  desc_italian_wars: "Italian Wars"
+ 
+ #Mercenaries
+ 
+ hussite_forces_saxony: "Bohemian Hussites"

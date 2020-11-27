@@ -719,12 +719,9 @@ country_decisions = {
 				}
 			}
 			change_tag = LOR
-			#if = {
-			#	limit = { NOT = { government_rank = 4 } is_part_of_hre = no }
-			#	set_government_rank = 4
-			#}
-			#else = { 
-			set_government_rank = 3 #}
+			if = { limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -869,6 +866,9 @@ country_decisions = {
 					}
 				}
 			}
+			if = { limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
 			change_tag = BAV
 			every_province = {
 					limit = { OR = { is_core = UBV is_core = LBV is_core = ING } }
@@ -945,10 +945,9 @@ country_decisions = {
 				}
 			}
 			change_tag = WUR
-			#if = {
-			#	limit = { NOT = { government_rank = 2 } is_part_of_hre = no }
-			#	set_government_rank = 2
-			#}
+			if = { limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
 			every_province = {
 					limit = { OR = { is_core = WU1 is_core = WU2 } }
 					remove_core = WU1
@@ -1243,10 +1242,10 @@ country_decisions = {
 					limit = {
 						capital_scope = { region = south_german_region }
 						NOT = { is_great_power = yes }
-						country_event = {
-							id = IR_flavor_misc.25
-							days = 0
-						}
+					}
+					country_event = {
+						id = IR_flavor_misc.25
+						days = 0
 					}
 				}
 			}
@@ -1366,6 +1365,7 @@ country_decisions = {
 			#}
 			set_country_flag = formed_decapole_flag   
 			set_country_flag = formed_hre_tier2_flag
+			#ROOT = { create_subject = { subject_type = fief subject = PREV } }
 			if = { limit = { ROOT = { not = { tag = HAG } } HAG = { exists = yes government = republic ai = yes } } create_subject = { subject_type = fief subject = ROOT } }
 			if = { limit = { ROOT = { not = { tag = C0L } } C0L = { exists = yes government = republic ai = yes } } create_subject = { subject_type = fief subject = ROOT } }
 			if = { limit = { ROOT = { not = { tag = STS } } STS = { exists = yes government = republic ai = yes } } create_subject = { subject_type = fief subject = ROOT } } #ahistorical but interesting
@@ -1424,8 +1424,8 @@ country_decisions = {
 			set_country_flag = formed_swabianleague_flag   
 			set_country_flag = formed_hre_tier2_flag
 			every_country = {
-				limit = { capital_scope = { swa_core_provinces = yes } ai = yes government = republic num_of_cities = 1 }
-				create_subject = { subject_type = fief subject = ROOT }
+				limit = { capital_scope = { swa_core_provinces = yes } ai = yes government = republic num_of_cities = 1 has_opinion = { who = ROOT value = 50 } }
+				ROOT = { create_subject = { subject_type = fief subject = PREV } }
 			}
 			#if = { limit = { ROOT = { not = { tag = BCH } } BCH = { exists = yes has_reform = imperial_city ai = yes } } create_subject = { subject_type = fief subject = ROOT } }
 			#if = { limit = { ROOT = { not = { tag = RVA } } RVA = { exists = yes has_reform = imperial_city ai = yes } } create_subject = { subject_type = fief subject = ROOT } }

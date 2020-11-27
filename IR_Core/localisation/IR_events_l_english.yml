@@ -1568,9 +1568,14 @@
  IR_flavor_NED.2.c: "Send sailors to assist rebels." 
  IR_flavor_NED.2.d: "Reconsider help." 
  
- IR_flavor_NED.2.t: "Dutch Rebels have risen up" 
- IR_flavor_NED.2.desc: "We have been informed that a foreign nation has aided rebels in our country, resulting in them rising up."
- IR_flavor_NED.2.a: "This wont be tolerated!" 
+ IR_flavor_NED.3.t: "Dutch Rebels have risen up" 
+ IR_flavor_NED.3.desc: "We have been informed that a foreign nation has aided rebels in our country, resulting in them rising up."
+ IR_flavor_NED.3.a: "This wont be tolerated!" 
+ 
+ IR_flavor_LowCountries.1.t: "The Flemish State" 
+ IR_flavor_LowCountries.1.desc: "With the unification of most of the Flemish Lands we must now decide on if we want to stay as the nation we are or reform into a United Flemish State"
+ IR_flavor_LowCountries.1.a: "@FLA Become a United Flemish State" 
+ IR_flavor_LowCountries.1.b: "Stay as we are" 
  
  #MINORS
  
@@ -1716,9 +1721,9 @@
  IR_flavor_LAND.2.b: "We are not interested in his plight."
  
  IR_flavor_LAND.3.t: "Settlement Discovered"
- IR_flavor_LAND.3.desc: "Incredibly, the exiled noble has found the Eastern Settlement on Greenland. It's been decades since we have last had contact with the settlers on this barren tundra."
+ IR_flavor_LAND.3.desc: "Incredibly, the exiled noble has found the *REDACTED* Settlement on *REDACTED*. It's been decades since we have last had contact with the settlers on this *REDACTED*."
  IR_flavor_LAND.3.a: "Join the settlement"
- IR_flavor_LAND.3.b: "Greetings, Breathren"
+ IR_flavor_LAND.3.b: "Greetings, Brethren"
  
  IR_flavor_LAND.4.t: "No word from the Exiled"
  IR_flavor_LAND.4.desc: "It's been around a year since we have heard from the exiled noble. He has likely perished and if not is hiding in some far away land."
@@ -1730,9 +1735,9 @@
  
  IR_flavor_LAND.6.t: "A String of Unfortunate Disasters"
  IR_flavor_LAND.6.desc: "Everything is going wrong as of late. With the lack of any outside contacts our settlement has been withering for a while now. There is hardly any wood to replace the damage the frost does to our dwellings. There is reports of widespread crop failure and if we do not do something, there is no doubt that we shall perish here."
- IR_flavor_LAND.6.a: "Attempt an expedition to our Norse brethen"
- IR_flavor_LAND.6.b: "Work together with the Skrælingjar" 
- IR_flavor_LAND.6.c: "Sail to the west to the fabled lands of Vinland" 
+ IR_flavor_LAND.6.a: "Attempt an expedition to our *REDACTED* brethen"
+ IR_flavor_LAND.6.b: "Work together with the *REDACTED*" 
+ IR_flavor_LAND.6.c: "Sail to the west to the fabled lands of *REDACTED*" 
  
  #LOSS OF CAPITAL DISASTERS
  #Loss of Constantinople
@@ -1808,21 +1813,16 @@
  loss_of_malacca.200.a:0 "Victory at last!"
  
  #
- 
-  
  #####OLD STRINGS NEED UPDATING
  
  flavor_brapru.0.t: "The Duchy of Prussia"
  flavor_brapru.0.d: "Despite having annexed East Prussia after the Thirteen Years' War, the local dynastic environment has once again allowed the Duchy of Prussia, headed by Albert von Hohenzollern."
  flavor_brapru.0.a: "Disappointing."
  
- 
  flavor_eng.10000.t: "Reverse Arras for Calais"
  flavor_eng.10000.d: "After the murder of John I 'The Fearless' of Burgundy, it was believed to have been done on Charles VII's orders. Thus the Burgundians allied with us. However, merely 16 years later, at Arras, they betrayed that trust, and became allies of France once again. Now they come back to us, with a proposition: they shall once again support our claim, and will grant us trade privileges in the Lowlands. In return they ask that we grant them the same privileges that they have under Charles currently, and the cession of Calais to their hands."
  flavor_eng.10000.a: "Yes, we have been apart too long."
  flavor_eng.10000.b: "No, these terms are ridiculous."
- 
- 
  
  #IR_marriages
  
@@ -1840,7 +1840,6 @@
  IR_marriages.3.d: "For centuries, the Bretons have passed in and out of the French kingdom. Now, with French enemies lining its borders in every direction, it is essential that Brittany is brought under friendly control. Though there are elements within Brittany that oppose a loss of independence, the Holy See itself has offered to validate any marriage, and subsequent Jure Uxoris claim to the Duchy. By marrying Anne of Brittany, we may finally establish a union between Brittany and France."
  IR_marriages.3.a: "Let us bind their Dynasty to ours!"
  IR_marriages.3.b: "Let us marry a local noble instead."
- 
  
  #IR_explorers
  
@@ -2018,9 +2017,8 @@
  ir_conquistador.1.a: "make him a Conquistador"
  ir_men.prestige.1.a: "Wonderfull" 
  
-
  #Balance of Power - Procyon
-
+ 
  taungu_rise.1_title: "Rise of the Taungu Empire"
  taungu_rise.1_desc: "Under King Tabinshwehti, Taungu would soon conquer Burma, though the monarch would later die prematurely from a hunting accident. His brother-in-law conquered Indochina, establishing the largest Southeast Asian empire in history. However, many parts of his empire revolted immediately after his death leading to its collapse. It was later restored, but never reached its former glory."
  taungu_rise.1_a: "We will unite the East Indies!"
@@ -2104,6 +2102,27 @@
  IR_cheat.7.c: "set_hre_religion_locked = yes"
  IR_cheat.7.d: "set_hre_religion_locked = no"
  
+ #IR Flavor Germany
+  
+ IR_flavor_SAX.1.t: "Saxon Fratricidal War" 
+ IR_flavor_SAX.1.d: "The Saxon Fratricidal War was a war fought between the two brothers Frederick II and William III over ruled areas from 1446 to 1451. After a dispute over the division of certain family lands between Frederick II and William III, the Division of Altenburg eventually led to growing tensions between the two brothers and an inability to agree on who ruled which areas. After failed attempts at reconciliation, the war broke out."
+ IR_flavor_SAX.1.a: "Grant Wilhelm his share of the inheritance." 
+ IR_flavor_SAX.1.b: "Wilhelm will have to take it by force!"
+ 
+ IR_flavor_SAX.2.t: "Treaty at Naumburg" 
+ IR_flavor_SAX.2.d: "With the Saxon Fratricidal War still raging and devastating our lands. There have been calls for peace between the two brothers."
+ IR_flavor_SAX.2.a: "Sign a Treaty at Naumburg" 
+ IR_flavor_SAX.2.b: "Continue Fighting"
+ 
+ IR_flavor_SAX.3.t: "Bohemian Assistance" 
+ IR_flavor_SAX.3.d: "With Frederick II dominating us in the war, we must decide on whether or not we should request Bohemian Aid."
+ IR_flavor_SAX.3.a: "Seek aid from Bohemia" 
+ IR_flavor_SAX.3.b: "We do not have the funds for this."
+ 
+ IR_flavor_BAV.1.t: "Death of the Ingolstadt Branch" 
+ IR_flavor_BAV.1.d: "After a period of struggle between Ludwig VII and his son, Ludwig was imprisoned and his son ruled until 1445 when he passed away. Ludwig had no other sons and when he died in 1447 his lands were taken by Duke of Bavaria-Landshut."
+ IR_flavor_BAV.1.a: "Peace be upon him." 
+ 
  #IR Flavour Random
  
  IR_flavor_misc.1.t: "Fetkeapers and the Skieringers" 
@@ -2121,21 +2140,11 @@
  IR_flavor_misc.3.a: "Divide the realm between the two successors" 
  IR_flavor_misc.3.b: "We must officially enact Primogeniture."
  
- IR_flavor_misc.4.t: "Saxon Fratricidal War" 
- IR_flavor_misc.4.d: "Your brother is unsatisfied with his inheritance and has demanded you divide your realm between eachother."
- IR_flavor_misc.4.a: "Grant him his share of the inheritance." 
- IR_flavor_misc.4.b: "He will have to take it by force!"
- 
  IR_flavor_misc.5.t: "Request from East Frisia" 
  IR_flavor_misc.5.d: "East Frisia has recently been united under a local chief who is now requesting us to recognize him as a true Count of East Frisia."
  IR_flavor_misc.5.a: "Grant him his request." 
  IR_flavor_misc.5.b: "We will do no such thing."
- 
- 
- IR_flavor_misc.7.t: "Death of the Ingolstadt Branch" 
- IR_flavor_misc.7.d: "After a period of struggle between Ludwig VII and his son, Ludwig was imprisoned and his son ruled until 1445 when he passed away. Ludwig had no other sons and when he died in 1447 his lands were taken by Duke of Bavaria-Landshut."
- IR_flavor_misc.7.a: "Peace be upon him." 
- 
+  
  IR_flavor_misc.9.t: "Rule of Holland" 
  IR_flavor_misc.9.d: "In the Hoekse and Kabeljauwse twists, the cities of Holland managed to gain much autonomy and were granted a Stadtholder to rule over the county in name of their overlord. The county once more asks for a stadtholder to rule in name of us."
  IR_flavor_misc.9.a: "Grant them their own governor who will rule over them as their republican stadtholder loyal to us Burgundians." 

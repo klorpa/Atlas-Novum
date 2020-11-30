@@ -886,7 +886,7 @@ hab_slot_3 = { #Austria became an official archduchy
 				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
 				add_claim = ROOT
 			}
-			3176 = {
+			4698 = {
 				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
 				add_claim = ROOT
 			}

@@ -484,7 +484,7 @@ ir_ottomans_slot_3 = {
 	has_country_shield = yes
 
 	tur_showdown = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rematchhungary
 		required_missions = { tur_hunt_skanderbeg }
 		position = 2
 
@@ -514,7 +514,7 @@ else = {
 	}
 
 	tur_wallachia_revolt = {
-		icon = mission_cannons_firing
+		icon = mission_restlesswallachia
 		required_missions = { tur_showdown }
 		position = 4
 
@@ -537,7 +537,7 @@ TYPE = permanent_claim
 	}
 
 	tur_annex_gurgiu = {
-		icon = mission_unite_home_region
+		icon = mission_retakedanube
 		required_missions = { tur_wallachia_revolt }
 		position = 5
 
@@ -556,7 +556,7 @@ TYPE = permanent_claim
 	}
 
 	tur_break_banat = {
-		icon = mission_unite_home_region
+		icon = mission_breakbanat
 		required_missions = { tur_annex_gurgiu }
 		position = 6
 
@@ -577,7 +577,7 @@ PROVINCES = tur_break_banat_provinces
 	}
 
 	tur_take_transylvania = {
-		icon = mission_have_two_subjects
+		icon = mission_taketransylvania
 		required_missions = { tur_break_banat }
 		position = 7
 
@@ -599,7 +599,7 @@ TYPE = permanent_claim
 	}
 
 	tur_slopes_slovakia = {
-		icon = mission_cannons_firing
+		icon = mission_slopesslovakia
 		required_missions = { tur_take_transylvania }
 		position = 8
 
@@ -622,7 +622,7 @@ TYPE = permanent_claim
 	}
 
 	tur_into_galicia = {
-		icon = mission_cannons_firing
+		icon = mission_gainsingalicia
 		required_missions = { tur_slopes_slovakia tur_pinch_podolia }
 		position = 9
 
@@ -645,7 +645,7 @@ TYPE = permanent_claim
 	}
 
 	tur_raze_krakow = {
-		icon = mission_cannons_firing
+		icon = mission_razekrakow
 		required_missions = { tur_into_galicia }
 		position = 10
 
@@ -754,7 +754,7 @@ ir_ottomans_slot_4 = {
 	has_country_shield = yes
 
 	tur_aegean_fleet = {
-		icon = mission_galleys_in_port
+		icon = mission_aegeanfleet
 		required_missions = { tur_city_worlds_desire }
 		position = 2
 
@@ -785,7 +785,7 @@ navy_size_percentage = 0.95
 	}
 
 	tur_crimean_succession = {
-		icon = mission_cossack_cavalry
+		icon = mission_khanscrimea
 		required_missions = {  }
 		position = 5
 
@@ -807,7 +807,7 @@ TYPE = permanent_claim
 	}
 
 	tur_acquire_akkerman = {
-		icon = mission_advance_to_the_dnieper
+		icon = mission_acquireakkerman
 		required_missions = { tur_annex_gurgiu tur_crimean_succession }
 		position = 6
 
@@ -828,7 +828,7 @@ PROVINCES = tur_acquire_akkerman_provinces
 	}
 
 	tur_subjugate_moldavia = {
-		icon = mission_have_two_subjects
+		icon = mission_subjugatemoldavia
 		required_missions = { tur_acquire_akkerman }
 		position = 7
 
@@ -847,7 +847,7 @@ PROVINCES = tur_acquire_akkerman_provinces
 	}
 
 	tur_pinch_podolia = {
-		icon = mission_have_two_subjects
+		icon = mission_pinchpodolia
 		required_missions = { tur_subjugate_moldavia }
 		position = 8
 
@@ -1005,7 +1005,7 @@ TYPE = permanent_claim
 	}
 
 	tur_establish_istanbul = {
-		icon = mission_market_place_with_asian_traders
+		icon = mission_establishistanbul
 		required_missions = { tur_city_worlds_desire }
 		position = 2
 
@@ -1021,7 +1021,7 @@ treasury = 200
 	}
 
 	tur_kaiser_i_rum = {
-		icon = mission_monarch_in_throne_room
+		icon = mission_kaiserirum
 		required_missions = { tur_aegean_fleet tur_establish_istanbul tur_seize_ainos }
 		position = 3
 
@@ -1055,7 +1055,7 @@ TYPE = permanent_claim
 	}
 
 	convert_hagia_sofia = {
-		icon = mission_mosque
+		icon = mission_hagiasofia
 		required_missions = { tur_kaiser_i_rum }
 		position = 4
 
@@ -1071,7 +1071,7 @@ TYPE = permanent_claim
 	}
 
 	tur_crush_epirote = {
-		icon = mission_unite_home_region
+		icon = mission_epirus
 		required_missions = { tur_secure_greece }
 		position = 5
 
@@ -1096,7 +1096,7 @@ TYPE = permanent_claim
 	}
 
 	tur_take_ionian_islands = {
-		icon = mission_invade_island
+		icon = mission_cerigotocorfu
 		required_missions = { tur_crush_epirote tur_pinch_peloponnesia }
 		position = 6
 
@@ -1119,7 +1119,7 @@ TYPE = permanent_claim
 	}
 
 	tur_ottoman_lake = {
-		icon = mission_cannons_firing
+		icon = mission_ottomanlake
 		required_missions = { tur_acquire_akkerman }
 		position = 7
 
@@ -1252,7 +1252,7 @@ AIN = { country_event = { id = IR_flavor_TUR.20 days = 0 } }
 	}
 
 	tur_secure_greece = {
-		icon = mission_cannons_firing
+		icon = mission_consolidaterum
 		required_missions = { tur_kaiser_i_rum }
 		position = 4
 
@@ -1276,7 +1276,7 @@ TYPE = permanent_claim
 	}
 
 	tur_pinch_peloponnesia = {
-		icon = mission_unite_home_region
+		icon = mission_pinchpeloponnesia
 		required_missions = { tur_secure_greece }
 		position = 5
 
@@ -1301,7 +1301,7 @@ TYPE = permanent_claim
 	}
 
 	tur_take_egriboz = {
-		icon = mission_unite_home_region
+		icon = mission_takeegriboz
 		required_missions = { tur_pinch_peloponnesia tur_annex_athens }
 		position = 6
 
@@ -1323,7 +1323,7 @@ PROVINCES = negroponte_common_provinces
 	}
 
 	tur_take_crete = {
-		icon = mission_cannons_firing
+		icon = mission_warforcandia
 		required_missions = { tur_combat_knights tur_take_egriboz tur_take_ionian_islands }
 		position = 7
 
@@ -1343,7 +1343,7 @@ PROVINCES = negroponte_common_provinces
 	}
 
 	tur_consolidate_east_med = {
-		icon = mission_empire
+		icon = mission_empireofeasternsea
 		required_missions = { tur_ottoman_lake tur_take_crete tur_take_cyprus }
 		position = 8
 
@@ -1357,7 +1357,7 @@ PROVINCES = negroponte_common_provinces
 	}
 
 	tur_barbary_corairs = {
-		icon = mission_corsairs_of_the_north_sea
+		icon = mission_barbarycorsairs
 		required_missions = { tur_defeat_mamluks tur_consolidate_east_med }
 		position = 10
 
@@ -1439,34 +1439,9 @@ ir_ottomans_slot_7 = {
 	}
 	has_country_shield = yes
 
-	tur_conquer_candar = {
-		icon = mission_unite_home_region
-		required_missions = { tur_shah_rokh }
-		position = 2
-
-		provinces_to_highlight = { candar_common_provinces = yes }
-
-		trigger = { 
-			control_mission_trigger = {
-				TOOLTIP=country_holds_or_non_sovereign_subject_controls_highlighted
-				PROVINCES=candar_common_provinces
-			}
-		}
-
-		effect = { 
-			control_mission_cede = {
-PROVINCES = candar_common_provinces
-}
-assign_claim_core = {
-PROVINCES = tur_seize_amastris_provinces
-TYPE = permanent_claim 
-}
-		}
-	}
-
 	tur_seize_amastris = {
 		icon = mission_unite_home_region
-		required_missions = { tur_conquer_candar }
+		required_missions = {  }
 		position = 3
 
 		provinces_to_highlight = { tur_seize_amastris_provinces = yes }
@@ -1507,7 +1482,7 @@ CIO = { exists = no }
 	}
 
 	tur_annex_athens = {
-		icon = mission_unite_home_region
+		icon = mission_annexathens
 		required_missions = { tur_secure_greece }
 		position = 5
 
@@ -1532,7 +1507,7 @@ TYPE = permanent_claim
 	}
 
 	tur_combat_knights = {
-		icon = mission_cannons_firing
+		icon = mission_combatknights
 		required_missions = {  }
 		position = 6
 
@@ -1756,7 +1731,7 @@ ir_ottomans_slot_8 = {
 4311 = { add_devastation = -30 }
 add_manpower = 10
 assign_claim_core = {
-PROVINCES = tur_shah_rokh_claim_provinces
+PROVINCES = tur_ankara_buffer_provinces
 TYPE = core
 }
 		}
@@ -1780,10 +1755,7 @@ TYPE = core
 			control_mission_cede = {
 PROVINCES = tur_ankara_buffer_provinces
 }
-assign_claim_core = {
-PROVINCES = karaman_common_provinces
-TYPE = core 
-}
+country_event = { id = IR_flavor_TUR.1 days = 0 }
 		}
 	}
 
@@ -1835,32 +1807,9 @@ TYPE = permanent_claim
 		}
 	}
 
-	tur_ramazan_rumble = {
-		icon = mission_cannons_firing
-		required_missions = { tur_beylik_betrayal }
-		position = 5
-
-		provinces_to_highlight = { tur_ramazan_provinces = yes }
-
-		trigger = { 
-			conquest_mission_trigger = {
-				TOOLTIP=country_or_non_sovereign_subject_holds_highlighted
-				PROVINCES=tur_ramazan_provinces
-				OWNER_TYPE=country_or_non_sovereign_subject_holds
-			}
-		}
-
-		effect = { 
-			assign_claim_core = {
-PROVINCES = tur_port_alexandretta_provinces
-TYPE = permanent_claim 
-}
-		}
-	}
-
 	tur_port_alexandretta = {
 		icon = mission_unite_home_region
-		required_missions = { tur_duel_for_dulkadir tur_ramazan_rumble }
+		required_missions = {  }
 		position = 6
 
 		provinces_to_highlight = { tur_port_alexandretta_provinces = yes }
@@ -2050,32 +1999,9 @@ ir_ottomans_slot_9 = {
 	}
 	has_country_shield = yes
 
-	tur_subjugate_sinope = {
-		icon = mission_cannons_firing
-		required_missions = { tur_shah_rokh }
-		position = 2
-
-		provinces_to_highlight = { tur_subjugate_sinope_provinces = yes }
-
-		trigger = { 
-			conquest_mission_trigger = {
-				TOOLTIP=country_or_non_sovereign_subject_holds_highlighted
-				PROVINCES=tur_subjugate_sinope_provinces
-				OWNER_TYPE=country_or_non_sovereign_subject_holds
-			}
-		}
-
-		effect = { 
-			assign_claim_core = {
-PROVINCES = tur_secure_trebizond_provinces
-TYPE = permanent_claim 
-}
-		}
-	}
-
 	tur_secure_trebizond = {
 		icon = mission_unite_home_region
-		required_missions = { tur_subjugate_sinope }
+		required_missions = {  }
 		position = 3
 
 		provinces_to_highlight = { tur_secure_trebizond_provinces = yes }
@@ -2094,29 +2020,9 @@ PROVINCES = tur_secure_trebizond_provinces
 		}
 	}
 
-	tur_duel_for_dulkadir = {
-		icon = mission_cannons_firing
-		required_missions = { tur_beylik_betrayal }
-		position = 5
-
-		provinces_to_highlight = { tur_dulkadir_provinces = yes }
-
-		trigger = { 
-			conquest_mission_trigger = {
-				TOOLTIP=country_or_non_sovereign_subject_holds_highlighted
-				PROVINCES=tur_dulkadir_provinces
-				OWNER_TYPE=country_or_non_sovereign_subject_holds
-			}
-		}
-
-		effect = { 
-			
-		}
-	}
-
 	tur_take_diyarbakir = {
 		icon = mission_unite_home_region
-		required_missions = { tur_duel_for_dulkadir }
+		required_missions = {  }
 		position = 6
 
 		provinces_to_highlight = { diyarbakir_common_provinces = yes }

@@ -43,6 +43,7 @@ categories =  {
 		local_core_creation = -0.1
 		local_culture_conversion_cost = 0.5
 		local_colonial_growth = 20	
+		local_defensiveness = -0.25
 		
 		nation_designer_cost_multiplier = 1.1
 
@@ -64,6 +65,7 @@ categories =  {
 		local_institution_spread = 0.1
 		local_culture_conversion_cost = -0.1
 		local_colonial_growth = 10	
+		local_defensiveness = -0.1
 		
 		nation_designer_cost_multiplier = 1
 		
@@ -141,6 +143,7 @@ categories =  {
 	
 		local_institution_spread = -0.05
 		local_core_creation = 0.1
+		local_defensiveness = -0.05
 		
 		nation_designer_cost_multiplier = 0.95
 
@@ -153,7 +156,7 @@ categories =  {
 		 
 			#Beyond Typus
 			3098 4340 1205 2776 2777 2213 2228 445 2221 457 4293
-			2470 440 344 359 2317 2311 409 2489 2020 859 5063 882 2497 1110 348 2496 326 5137 5150 4314 5155 5165 5212 
+			2470 440 344 359 2317 2311 409 2489 2020 859 5063 882 2497 1110 348 2496 326 5155 5212 
 			4318 5267 4320 2319 360 4319 5578 5285 2453 2454 356 399 5334 4060 4057 4058 4056 4048 4038 4039 
 			5762 5757 5844 5758 5348 1176 5349 1178 5347 5362 5384 5345 5145
 			
@@ -171,13 +174,13 @@ categories =  {
 			333 #12/4
 			4550 4548 4547 4546 5224 5225 4566 5219 343 342 4563 2467 5226 2469 #12/19
 			855 4574 5859 5857
-			2298 5135 5138 377 1849 2986 7101 2215 428 429 2218 825 146 3177 5172 2287 4309 318 4307 2301 329 1800 4034 341 125 #1/9
+			2298 5135 5138 377 1849 2986 7101 2215 428 429 2218 825 146 3177 5172 2287 4309 318 2301 329 1800 4034 341 125 #1/9
 			852 856 857 850 4570 2622 4573#2/1
 			2914 779 2866 2860 786 4308#2/8
-			10281 10294 10278 10272 10270 10269 10291 10297 10285 10295 327 10276 323 10958
+			10281 10294 10278 10272 10270 10269 10291 10285 10295 327 323 10958
 			1854 4564 8058 8070 8057 8071 10010 8059 219 10041 217 8055 8052 8074 8082 4549 357 10225 2310 10234 4298 2308 10241 10244 10223 11028
 			2206 2207 4338 2212 6791 693 6768 694 6800 6812 6745 1836 6813 700 6775 697 6789 6790
-			6815 4198 2180 6796 699 10924
+			6815 4198 2180 6796 699 10924 10297 5137 5165 324 10248
 			#BTARG
 			7504 4628 4629 7521
 			#Australia
@@ -214,6 +217,7 @@ categories =  {
 	
 		local_institution_spread = -0.1
 		local_colonial_growth = -10
+		local_defensiveness = 0.05
 		
 		nation_designer_cost_multiplier = 0.95
 
@@ -239,6 +243,7 @@ categories =  {
 			2190 2189 719 4222 10951 10950 701 6806 6837 708 6810 6829 702
 			715 4208 2120 2119 #12/1
 			291 7257 7196 7251 7198 7199 7197 7279 7277 7206 7259 3242 290 7256 7255 4542 2407 1944 #1/21
+			10276 4307 4314
 			#Auz
 			11304 11236 11306 11327 11383 11324 1091 1089
 			11280 11325 11156 11393 11152 11128 11100 
@@ -273,6 +278,7 @@ categories =  {
 		local_institution_spread = -0.1
 		local_core_creation = 0.5
 		local_colonial_growth = 5	
+		local_defensiveness = 0.2
 		
 		nation_designer_cost_multiplier = 0.9
 
@@ -388,6 +394,7 @@ categories =  {
 		local_institution_spread = -0.25
 		local_core_creation = -0.1
 		local_colonial_growth = -5	
+		local_defensiveness = 0.35
 		
 		nation_designer_cost_multiplier = 0.8
 		
@@ -447,6 +454,7 @@ categories =  {
 		local_institution_spread = 0.2
 		local_core_creation = -0.2
 		local_colonial_growth = 10
+		local_defensiveness = 0.1
 		
 		nation_designer_cost_multiplier = 0.85
 		
@@ -520,6 +528,7 @@ categories =  {
 		local_institution_spread = -0.15
 		local_core_creation = 0.05
 		local_colonial_growth = -5	
+		local_defensiveness = 0.25
 		
 		nation_designer_cost_multiplier = 0.85
 
@@ -599,6 +608,7 @@ categories =  {
 		local_institution_spread = -0.1
 		local_core_creation = 0.1
 		local_colonial_growth = -5	
+		local_defensiveness = 0.4
 		
 		nation_designer_cost_multiplier = 0.85
 
@@ -748,6 +758,7 @@ categories =  {
 		local_institution_spread = -0.2
 		local_core_creation = 0.25
 		local_colonial_growth = -15	
+		local_defensiveness = 0.45
 		
 		nation_designer_cost_multiplier = 0.75
 
@@ -783,7 +794,7 @@ categories =  {
 			5167 7104 4581 4572 4571 4582 4583 4644 4650 4641 4300 414 3180 5163 
 			4623 4643 2615 4642 2628 #2/1
 			2916 2869 781 2876 2875 780 2870 2847 2867 2863 2925 2918 2868 #2/8
-			10955 10283 10282 10266 10273 10296 324 10242 10240 10219 2300 10287 10239 4337 379 5203 10077
+			10955 10283 10282 10266 10273 10296 10242 10240 10219 2300 10287 10239 4337 379 10077
 			6637 6640 6946 2099
 			
 			2968 10486 7169 267 2965 2967 10485 4744 7181
@@ -843,6 +854,7 @@ categories =  {
 		local_institution_spread = -0.35
 		local_core_creation = 1
 		local_colonial_growth = -20
+		local_defensiveness = 0.5
 		
 		nation_designer_cost_multiplier = 0.75
 
@@ -885,10 +897,10 @@ categories =  {
 			4646 10578 10584 4759 
 			4601 4602 4604 823 4607 4758 73
 			765 2899 2898 319 #2/8
-			10406 10298 10299 10249 10248 10245 10284
+			10406 10298 10299 10249 10245 10284
 			8056 8053 10014 8039 8083 8066 11594 5603 11586	5218 5210 
 			7465 7464 936 2544 7540 2552
-			10940 10944 11026 10939 11058 
+			10940 10944 11026 10939 11058 10953 365
 			#CIP - China
 			2184 6856 6876 6853 6743 6677 6879 6915 6911 6662 6679 6696
 			6697 6708 6785 6787 6792 6794 6795 6803 6664 6916
@@ -948,6 +960,7 @@ categories =  {
 		ship_recruit_speed = 0.1
 	
 		local_colonial_growth = -5	
+		local_defensiveness = 0.15
 		
 		nation_designer_cost_multiplier = 0.95
 		
@@ -1004,6 +1017,7 @@ categories =  {
 		local_institution_spread = -0.4
 		local_core_creation = 0.1
 		local_colonial_growth = -25	
+		local_defensiveness = 0.3
 		
 		nation_designer_cost_multiplier = 0.8
 
@@ -1091,6 +1105,7 @@ categories =  {
 		local_institution_spread = -0.2
 		local_core_creation = 0.25
 		local_colonial_growth = -15	
+		local_defensiveness = 0.1
 		
 		nation_designer_cost_multiplier = 0.75
 		
@@ -1145,6 +1160,7 @@ categories =  {
 		local_institution_spread = -0.15
 		local_core_creation = 0.1
 		local_colonial_growth = -10	
+		local_defensiveness = 0.05
 		
 		nation_designer_cost_multiplier = 0.9
 		
@@ -1154,17 +1170,17 @@ categories =  {
 			1215 1230 1232 2315 2320 2321 2765 2786 2788 2789 1206 1209 2024 2790 2793 
 
 			#Beyond Typus
-			2324 2346 387 388 347 1111 2828 812 809 2826 2782 2783 2795 1175 364 365 2325 2326 353 355 2451 2452 865 866 
+			2324 2346 387 388 347 1111 2828 812 809 2826 2782 2783 2795 1175 364 2325 2326 353 355 2451 2452 865 866 
 			2620 5043 2616 5061 5228 5180 363 4964 5233 4278 4279 5241 4286 5250 5251 4269 2327 5271 5272 5274 5282 5283 5288 
 			5298 5311 5312 5387 5346 5426  
 			
 			#Amyzonis
 			4028 4032 10122 401 402 4283 10926 10925
-			5862 5861 5860 4577 5577 10953
+			5862 5861 5860 4577 5577
 			#Australia
 			11221 11219 11218 2726 11190 11171
 			#LeRoi Levant
-			10927 10928 
+			10928 
 		}
 	}
 	
@@ -1191,6 +1207,7 @@ categories =  {
 		local_institution_spread = -0.75
 		local_core_creation = -0.75
 		local_colonial_growth = -25	
+		local_defensiveness = -0.25
 		
 		nation_designer_cost_multiplier = 0.75
 
@@ -1227,6 +1244,7 @@ categories =  {
 		local_institution_spread = -0.3
 		local_core_creation = -0.5
 		local_colonial_growth = -15
+		local_defensiveness = 0.45
 		
 		nation_designer_cost_multiplier = 0.5
 		
@@ -1236,6 +1254,7 @@ categories =  {
 			5756 2483 5812 5751 2487 5752 5753 4961 5881 #scablands
 			5785 5034 5786 5634 5633 5044 5820
 			6793 6807 6808 6798 2179 6821 2181 6820
+			5181 10927 10930 4270 5203 5150
 		}
 	}
 	
@@ -1261,6 +1280,7 @@ categories =  {
 		local_institution_spread = -0.5
 		local_core_creation = -0.5
 		local_colonial_growth = -20	
+		local_defensiveness = 0.4
 		
 		nation_designer_cost_multiplier = 0.5
 		

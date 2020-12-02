@@ -8,34 +8,14 @@ IR_Flanders_slot_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
 		tag = FLA
-		was_tag = FLA
-		}
 	}
 	has_country_shield = yes
 
-	fla_golden_inlet = {
-		icon = mission_golden_inlet
-		required_missions = {  }
-		position = 1
-
-		trigger = { 
-	custom_trigger_tooltip = {
- tooltip = flanders.golden_inlet.requirement_tt
- has_country_flag = flanders.golden_inlet.maintained
-}
-		}
-
-		effect = { 
-			#add_country_modifier
-		}
-	}
-
 	fla_flemish_cloth = {
 		icon = mission_early_game_buildings
-		required_missions = { fla_golden_inlet }
-		position = 2
+		required_missions = {  }
+		position = 1
 
 		trigger = { 
 	1269 = {
@@ -47,13 +27,34 @@ IR_Flanders_slot_1 = {
 		}
 
 		effect = { 
-			
+			add_years_of_income = 2
+		}
+	}
+
+	fla_golden_inlet = {
+		icon = mission_golden_inlet
+		required_missions = { fla_flemish_cloth }
+		position = 2
+
+		trigger = { 
+	custom_trigger_tooltip = {
+ tooltip = flanders.golden_inlet.requirement_tt
+ has_country_flag = flanders.golden_inlet.maintained
+}
+		}
+
+		effect = { 
+			90 = { 
+				add_base_production = 2
+				add_base_tax = 2
+				add_base_manpower = 2
+			}
 		}
 	}
 
 	fla_flemish_industry = {
 		icon = mission_rb_hanseatic_east
-		required_missions = { fla_flemish_cloth }
+		required_missions = { fla_golden_inlet }
 		position = 3
 
 		trigger = { 
@@ -61,7 +62,22 @@ IR_Flanders_slot_1 = {
 		}
 
 		effect = { 
-			
+			#placeholder
+			add_years_of_income = 0.5
+		}
+	}
+
+	fla_purchase_calais = {
+		icon = chater_the_voc
+		required_missions = { fla_flemish_industry }
+		position = 4
+
+		trigger = { 
+	treasury = 1000
+		}
+
+		effect = { 
+			country_event = { id = IR_flavor_NED_missions.1 }
 		}
 	}
 
@@ -71,10 +87,7 @@ IR_Flanders_slot_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
 		tag = FLA
-		was_tag = FLA
-		}
 	}
 	has_country_shield = yes
 
@@ -84,41 +97,24 @@ IR_Flanders_slot_2 = {
 		position = 1
 
 		trigger = { 
-	num_of_light_ship = 12
+			num_of_light_ship = 15
 		}
 
 		effect = { 
-			
+			add_country_modifier = {
+				name = "ned_sea_beggar_activity"
+				duration = 5475
+			}
 		}
 	}
 
 	fla_expand_shipyards = {
 		icon = mission_galleys_in_port
 		required_missions = { fla_flemish_fleet fla_golden_inlet }
-		position = 2
-
-		trigger = { 
-	90 = { has_building = dock }
-		}
-
-		effect = { 
-			
-		}
-	}
-
-	fla_purchase_calais = {
-		icon = chater_the_voc
-		required_missions = { fla_flemish_cloth }
 		position = 3
 
-		provinces_to_highlight = { fla_calais_prov = yes }
-
 		trigger = { 
-			conquest_mission_trigger = {
-				TOOLTIP=country_or_non_sovereign_subject_holds_highlighted
-				PROVINCES=fla_calais_prov
-				OWNER_TYPE=country_or_non_sovereign_subject_holds
-			}
+			90 = { has_building = dock }
 		}
 
 		effect = { 
@@ -126,23 +122,24 @@ IR_Flanders_slot_2 = {
 		}
 	}
 
-	fla_conquer_hainaut = {
+	fra_push_holland = {
 		icon = mission_cannons_firing
-		required_missions = { fla_reclaim_artois }
+		required_missions = { fla_reconquer_zeeland }
 		position = 4
 
-		provinces_to_highlight = { fla_hainaut_prov = yes }
+		provinces_to_highlight = { fla_holland_prov = yes }
 
 		trigger = { 
 			conquest_mission_trigger = {
 				TOOLTIP=country_or_non_sovereign_subject_holds_highlighted
-				PROVINCES=fla_hainaut_prov
+				PROVINCES=fla_holland_prov
 				OWNER_TYPE=country_or_non_sovereign_subject_holds
 			}
 		}
 
 		effect = { 
-			
+			#placeholder
+			add_years_of_income = 0.5
 		}
 	}
 
@@ -152,10 +149,7 @@ IR_Flanders_slot_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
 		tag = FLA
-		was_tag = FLA
-		}
 	}
 	has_country_shield = yes
 
@@ -169,26 +163,21 @@ IR_Flanders_slot_3 = {
 		}
 
 		effect = { 
-			88 = {
+			artesia_area = {
 				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
 				add_permanent_claim = ROOT
 			}
-			10506 = {
-				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
-				add_permanent_claim = ROOT
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125 #25 years
 			}
-			10509 = {
-				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
-				add_permanent_claim = ROOT
-			}
-
 		}
 	}
 
 	fla_reclaim_artois = {
 		icon = mission_cannons_firing
 		required_missions = { ned_prepare_conflict }
-		position = 3
+		position = 2
 
 		provinces_to_highlight = { fla_artois_area = yes }
 
@@ -201,19 +190,7 @@ IR_Flanders_slot_3 = {
 		}
 
 		effect = { 
-			91 = {
-				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
-				add_permanent_claim = ROOT
-			}
 			96 = {
-				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
-				add_permanent_claim = ROOT
-			}
-			7977 = {
-				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
-				add_permanent_claim = ROOT
-			}
-			7976 = {
 				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
 				add_permanent_claim = ROOT
 			}
@@ -223,20 +200,39 @@ IR_Flanders_slot_3 = {
 	fla_reconquer_zeeland = {
 		icon = mission_cannons_firing
 		required_missions = { fla_reclaim_artois }
+		position = 3
+
+		provinces_to_highlight = { province_id = 96 }
+
+		trigger = { 
+			owns_or_non_sovereign_subject_of = 96
+		}
+
+		effect = { 
+			netherlands_area = {
+				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	fla_conquer_hainaut = {
+		icon = mission_cannons_firing
+		required_missions = { fla_conquer_doornik }
 		position = 4
 
-		provinces_to_highlight = { fla_zeeland_prov = yes }
+		provinces_to_highlight = { fla_hainaut_prov = yes }
 
 		trigger = { 
 			conquest_mission_trigger = {
 				TOOLTIP=country_or_non_sovereign_subject_holds_highlighted
-				PROVINCES=fla_zeeland_prov
+				PROVINCES=fla_hainaut_prov
 				OWNER_TYPE=country_or_non_sovereign_subject_holds
 			}
 		}
 
 		effect = { 
-			
+			add_prestige = 10
 		}
 	}
 
@@ -246,10 +242,7 @@ IR_Flanders_slot_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
 		tag = FLA
-		was_tag = FLA
-		}
 	}
 	has_country_shield = yes
 
@@ -304,38 +297,23 @@ IR_Flanders_slot_4 = {
 		}
 
 		effect = { 
-			92 = {
+			brabant_area = {
 				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
 				add_permanent_claim = ROOT
 			}
-			8019 = {
+			91 = {
 				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
 				add_permanent_claim = ROOT
 			}
-			10512 = {
+			10514 = {
 				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
 				add_permanent_claim = ROOT
 			}
-			1714 = {
+			10508 = {
 				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
 				add_permanent_claim = ROOT
 			}
-			10513 = {
-				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
-				add_permanent_claim = ROOT
-			}
-			4770 = {
-				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
-				add_permanent_claim = ROOT
-			}
-			95 = {
-				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
-				add_permanent_claim = ROOT
-			}
-			10689 = {
-				limit = { NOT = { country_or_non_sovereign_subject_holds = ROOT } }
-				add_permanent_claim = ROOT
-			}
+			add_mil_power = 50
 		}
 	}
 
@@ -355,7 +333,7 @@ IR_Flanders_slot_4 = {
 		}
 
 		effect = { 
-			
+			add_years_of_income = 0.5
 		}
 	}
 	
@@ -379,5 +357,4 @@ IR_Flanders_slot_4 = {
 			}
 		}
 	}
-
 }

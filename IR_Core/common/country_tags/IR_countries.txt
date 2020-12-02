@@ -329,6 +329,7 @@ F8M = "countries/Fermo.txt"
 S0R = "countries/Sora.txt" #Dub changed from SOR to SRA in 1.30 due to tag conflict.
 #TSI = "countries/TwoSicilies.txt" #CONVERT TO VANILLA
 #TTN = "countries/Tortona.txt"
+BGO = "countries/Bergamo.txt"
 
 #Ruthenia
 PDL = "countries/Podolia.txt"

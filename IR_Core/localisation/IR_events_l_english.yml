@@ -1710,7 +1710,7 @@
  partition_georgia.3.d: "The Kingdom of Imereti is full of powerful nobles who have become distraught by the question of succession to the Georgian throne. Indeed, they have broken off and begun to raise their levies in support of who they claim to be the rightful heir."
  partition_georgia.3.a: "Attempt to sway the nobles to support the Imeretian claim."
  partition_georgia.3.b: "Ignore the nobility."
-
+  
  #LOSS OF CAPITAL DISASTERS
  #Loss of Constantinople
  loss_of_constantinople:0 "Loss of Constantinople"
@@ -1783,7 +1783,7 @@
  loss_of_malacca.200.t:0 "Malacca Reclaimed!"
  loss_of_malacca.200.d:0 "This month, at great last, our armies have reoccupied the capital of [596.GetName]. Though many doubted our ability to reclaim it after its devestating loss, we have shown them all to be fools. Moreover, we have snatched new life for our nation from the jaws of death. Long live the Malaccan Sultanate!"
  loss_of_malacca.200.a:0 "Victory at last!"
-
+ 
  #####################
  # 
  #IR Flavor Land
@@ -1815,10 +1815,13 @@
  IR_flavor_LAND.6.b: "Work together with the *REDACTED*" 
  IR_flavor_LAND.6.c: "Sail to the west to the fabled lands of *REDACTED*" 
  
- #####OLD STRINGS NEED UPDATING
+ 
+  #####OLD STRINGS NEED UPDATING
+ 
  flavor_brapru.0.t: "The Duchy of Prussia"
  flavor_brapru.0.d: "Despite having annexed East Prussia after the Thirteen Years' War, the local dynastic environment has once again allowed the Duchy of Prussia, headed by Albert von Hohenzollern."
  flavor_brapru.0.a: "Disappointing."
+ 
  
  flavor_eng.10000.t: "Reverse Arras for Calais"
  flavor_eng.10000.d: "After the murder of John I 'The Fearless' of Burgundy, it was believed to have been done on Charles VII's orders. Thus the Burgundians allied with us. However, merely 16 years later, at Arras, they betrayed that trust, and became allies of France once again. Now they come back to us, with a proposition: they shall once again support our claim, and will grant us trade privileges in the Lowlands. In return they ask that we grant them the same privileges that they have under Charles currently, and the cession of Calais to their hands."
@@ -1841,6 +1844,7 @@
  IR_marriages.3.d: "For centuries, the Bretons have passed in and out of the French kingdom. Now, with French enemies lining its borders in every direction, it is essential that Brittany is brought under friendly control. Though there are elements within Brittany that oppose a loss of independence, the Holy See itself has offered to validate any marriage, and subsequent Jure Uxoris claim to the Duchy. By marrying Anne of Brittany, we may finally establish a union between Brittany and France."
  IR_marriages.3.a: "Let us bind their Dynasty to ours!"
  IR_marriages.3.b: "Let us marry a local noble instead."
+ 
  
  #IR_explorers
  
@@ -2018,8 +2022,9 @@
  ir_conquistador.1.a: "make him a Conquistador"
  ir_men.prestige.1.a: "Wonderfull" 
  
+
  #Balance of Power - Procyon
- 
+
  taungu_rise.1_title: "Rise of the Taungu Empire"
  taungu_rise.1_desc: "Under King Tabinshwehti, Taungu would soon conquer Burma, though the monarch would later die prematurely from a hunting accident. His brother-in-law conquered Indochina, establishing the largest Southeast Asian empire in history. However, many parts of his empire revolted immediately after his death leading to its collapse. It was later restored, but never reached its former glory."
  taungu_rise.1_a: "We will unite the East Indies!"

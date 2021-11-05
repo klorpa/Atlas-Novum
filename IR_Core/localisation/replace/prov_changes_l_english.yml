@@ -199,7 +199,7 @@
  PROV975:0 "Nuxalk"
  PROV976:0 "Shtax'héen"
  PROV977:0 "Yaakwdáat"
- PROV978:0 "Tanaina"
+ PROV978:0 "Tikahtnu"
  PROV979:0 "Atan"
  PROV980:0 "Kosweet"
  PROV982:0 "Onamag"
@@ -431,7 +431,7 @@
  PROV2425:0 "Yugra"
  PROV2448:0 "Sabha"
  #PROV2449:0 "Jufra"            #Actually the same as vanilla, but adding here anyway to prevent changes with vanilla
- PROV2450:0 "Jebil"
+ #PROV2450:0 "Jebil"
  #PROV2451:0 "Thubaqt"            #Actually the same as vanilla, but adding here anyway to prevent changes with vanilla
  #PROV2452:0 "Zuwarah"            #Actually the same as vanilla, but adding here anyway to prevent changes with vanilla
  #PROV2453:0 "Sfax"            #Actually the same as vanilla, but adding here anyway to prevent changes with vanilla
@@ -543,7 +543,7 @@
  PROV2801:0 "Ain Farah"
  PROV2802:0 "Daein"         #Poor name, want another
  PROV2811:0 "Maracoa"         #Credit to Arga
- PROV2852:0 "Tacuaremboty"         #Credit to Arga
+# PROV2852:0 "Tacuaremboty"         #Credit to Arga
  PROV2856:0 "Mangaung"         #ERROR - Bantu name in what was probably San (Khoisan) land
  PROV2864:0 "Kakamas "
  PROV2880:0 "Griquatown"          #ERROR - Griquatown, naming being problematic.
@@ -557,7 +557,6 @@
  #PROV2991:0 "Toulon"
  PROV2999:0 "Hormuz"
  PROV3002:0 "Visoko"
- PROV3187:0 "Macva"
  PROV3194:0 "Sóli"
  PROV4033:0 "Gadarif"
  PROV4154:0 "Pyrenees"

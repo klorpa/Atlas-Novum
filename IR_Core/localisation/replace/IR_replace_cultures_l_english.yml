@@ -4,7 +4,30 @@
  creek:0 "Muscogee"
  delaware:0 "Unami"
  iroquois:0 "Seneca"
+ #
+ je:0 "Ge"
+ ge:0 "Tapuia"
+ tupinamba:0 "Tupinambá"
+ guarani:0 "Guaraní"
+ charrua_g:0 "Charrúa"
+ charruan:0 "Charrúa"
+ karina:0 "Kalinya"
+ chacoan:0 "Maká"
+ mataco:0 "Matáko"
+ patagonian:0 "Selk'nam"
+ aimara:0 "Aymara"
+ huarpe:0 "Allentiac"
+ andean_group:0 "Quechua"
+ inca:0 "Inca"
+ chimuan:0 "Chimú"
+ maranon:0 "Jivaro" 
+ chachapoyan:0 "Chacha"
+ cara:0 "Caranqui"
+ jivaro:0 "Shiwiar"
+###OCEANIC
  pacific: "Polynesian"
+ 
+
 ### EUROPEAN
 #German
  hannoverian:0 "Eastphalian"
@@ -19,7 +42,7 @@
  byzantine:0 "Rhomaioi"
  anatolian:0 "Anatolian"
  #
- berber:0 "Berber"
+ berber:0 "Zenati"
  afghani:0 "Afghani"
  pashto:0 "Pashtuni"
  #Korean

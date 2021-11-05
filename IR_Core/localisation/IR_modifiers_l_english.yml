@@ -159,7 +159,19 @@
  desc_terek_estuary_modifier:0 "Controlling the important river estuary of the Terek strengthens our hold of the trade in the region."
  kuma_estuary_modifier:0 "Kuma Estuary"
  desc_kuma_estuary_modifier:0 "Controlling the important river estuary of the Kuma strengthens our hold of the trade in the region."
+ bagrada_estuary_modifier:0 "Bagrada Estuary"
+ desc_bagrada_estuary_modifier:0 "Controlling the important river estuary of the Bagrada strengthens our hold of the trade in the region."
  
+ sebou_estuary_modifier:0 "Sebou Estuary"
+ desc_sebou_estuary_modifier:0 "Controlling the important river estuary of the Sebou strengthens our hold of the trade in the region."
+ wansifen_estuary_modifier:0 "Wansifen Estuary"
+ desc_wansifen_estuary_modifier:0 "Controlling the important river estuary of the Wansifen strengthens our hold of the trade in the region."
+ sala_estuary_modifier:0 "Sala Estuary"
+ desc_sala_estuary_modifier:0 "Controlling the important river estuary of the Sala strengthens our hold of the trade in the region."
+ tensift_estuary_modifier:0 "Tensift Estuary"
+ desc_tensift_estuary_modifier:0 "Controlling the important river estuary of the Tensift strengthens our hold of the trade in the region."
+ xingu_estuary_modifier:0 "Xingu Estuary"
+ desc_xingu_estuary_modifier:0 "Controlling the important river estuary of the Xingu strengthens our hold of the trade in the region."
  fly_estuary_modifier:0 "Fly Estuary"
  desc_fly_estuary_modifier:0 "Controlling the important river estuary of the Fly strengthens our hold of the trade in the region."
  sepik_estuary_modifier:0 "Sepik Estuary"
@@ -209,6 +221,15 @@
  mlc_civil_war_timer:0 "Malacca in Disarray"
  mlc_civil_war_timer_desc:0 "Since the loss of our capital, Malacca, our nation has been in turmoil. Without a doubt, the loss of our court and capital has created a significant detriment to our legitimacy. We must reclaim Malacca as soon as possible, or else the entire realm may collapse."
  
+ #Brittany
+ bri_king_of_france:0 "A Breton King of France"
+ bri_king_of_france_desc:0 "After many years of oppression and war within the Kingdom of France we have taken our place as the ruler, truly showing the world that the Bretons are a hardier stock than the common Frenchman."
+ bri_breton_ships:0 "Breton Shipyards"
+ bri_breton_ships_desc:0 "Brittany is a natural naval power, being surrounded on three sides by the oceans. Having invested in our shipmaking capabilities we have developed methods for ensuring our ships require less maintenance."
+ bri_west_france:0 "Founded West France"
+ bri_west_france_desc:0 "We have successfully founded multiple territories in the Americas, creating a new Kingdom of France to expand even further into the rest of the world."
+ bri_carib_nations:0 "Caribbean Trading"
+ bri_carib_nations_desc:0 "Having established a presence among the rich and productive islands of the Caribbean, we have a better knowledge of trade and how to give our own markets the most competitive edge."
  
  #Ottomans
  

@@ -112,9 +112,9 @@
  massif_central_area_name: "Massif Central"
  massif_central_area_adj: "Massif Centralian"
  
- sicily_area:0 "Sicily"
- sicily_area_adj:0 "Sicilian"
- sicily_area_name:0 "Sicily"
+ sicily_area:0 "Syracusa"
+ sicily_area_name:0 "Syracusa"
+ sicily_area_adj:0 "Syracusan"
  western_sicily_area:0 "Malta"
  western_sicily_area_name:0 "Malta"
  western_sicily_area_adj:0 "Maltese"
@@ -309,7 +309,17 @@
  qassim_area_adj:0 "Qassimi"
  nafud_area:0 "Hail"
  nafud_area_name:0 "Hail"
- nafud_area_adj:0 "Hail"
+ nafud_area_adj:0 "Hail" indonesia_region:0 "Java"
+ indonesia_region_name:0 "Java"
+ indonesia_region_adj:0 "Javanese"
+
+ south_america_superregion:0 "South America"
+ south_america_superregion_name:0 "South America"
+ south_america_superregion_adj:0 "South American"
+ 
+ djerba_area:0 "Gabes"
+ djerba_area_name:0 "Gabes"
+ djerba_area_adj:0 "Gabes"
  
  western_mediterrenean_area:0 "Western Mediterrenean"
  western_mediterrenean_area_name:0 "Western Mediterrenean"

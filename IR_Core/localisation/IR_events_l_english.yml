@@ -168,7 +168,7 @@
  
  #census/province_edicts
  census.1.t: "[Root.GetName] Census"
- census.1.desc: "§BWealth Progress§! = [Root.IR_wealth_progress.GetValue] \n         = +§O[Root.IR_wealth_production.GetValue]§! (Growth + Trade Value) / §R[Root.IR_logistics.GetValue]§! (Logistics Cost) per year [ttt_BarM2]\n§BPopulation Progress§! = [Root.IR_pop_progress.GetValue]\n         = +§G[Root.IR_pop_production.GetValue]§! (Growth + Infrastructure) - §R[Root.IR_consumption.GetValue]§! (Consumption) per year [ttt_BarM1] \n§BCarrying Capacity§!  = [Root.IR_prov_pop_cap.GetValue] \n         = [Root.GetTerrainCC] (Terrain) + [Root.IR_prov_climate.GetValue] (Climate)   + [Root.IR_InfrPrjCC.GetValue] (Features and Projects)\n\n§BInfrastructure Limit§! = [Root.IR_prov_infrastructure_cap.GetValue] \n         = [Root.GetTerrainIL] (Terrain) + [Root.GetBuildingCC] (Buildings) + [Root.IR_InfrPrjIL.GetValue] (Features and Projects)\n\n§BYearly Famine Chance§! = [Root.IR_prov_famine_chance.GetValue]% \n         = 10 * (§R[Root.IR_consumption.GetValue]§! - §G[Root.IR_pop_production.GetValue]§!) + [Root.IR_prov_pop_cap.GetValue] (Carrying Capacity) - [Root.IR_prov_pop.GetValue] (Population)" 
+ census.1.desc: "§BWealth Progress§! = [Root.IR_wealth_progress.GetValue] \n         = +§O[Root.IR_wealth_production.GetValue]§! (Terrain + [Root.IR_growth_factor.GetValue] * Population) / §R[Root.IR_logistics.GetValue]§! (Logistics Cost) per year [ttt_BarM2]\n§BPopulation Progress§! = [Root.IR_pop_progress.GetValue]\n         = +§G[Root.IR_pop_production.GetValue]§! (Terrain + Infrastructure) - §R[Root.IR_consumption.GetValue]§! (Consumption) per year [ttt_BarM1] \n§BCarrying Capacity§!  = [Root.IR_prov_pop_cap.GetValue] \n         = [Root.GetTerrainCC] (Terrain) + [Root.IR_prov_climate.GetValue] (Climate)   + [Root.IR_InfrPrjCC.GetValue] (Features and Projects)\n\n§BInfrastructure Limit§! = [Root.IR_prov_infrastructure_cap.GetValue] \n         = [Root.GetTerrainIL] (Terrain) + [Root.GetBuildingCC] (Buildings) + [Root.IR_InfrPrjIL.GetValue] (Features and Projects)\n\n§BYearly Famine Chance§! = [Root.IR_prov_famine_chance.GetValue]% \n         = 10 * (§R[Root.IR_consumption.GetValue]§! - §G[Root.IR_pop_production.GetValue]§!) + [Root.IR_prov_pop_cap.GetValue] (Carrying Capacity) - [Root.IR_prov_pop.GetValue] (Population)" 
  census.1.a: "Province Edicts"
  census.1.b: "Foresty"
  census.1.c: "Infrastructure Projects"
@@ -1561,6 +1561,14 @@
  IR_flavor_LowCountries.1.b: "Stay as we are" 
  
  #MINORS
+ 
+ #Tuscany
+ IR_TUS.1.t: "Formation of the Order of Saint Stephen"
+ IR_TUS.1.d: "After founding the Grand Duchy of Tuscany, the Grand Duke (Historically Cosimo I de' Medici), seeks to bring Tuscany into the larger fight against the Ottoman Empire and their Barbary Corsair lackies. Why? To help fight for Christiandom as a whole, whilst also protecting Tuscany's own interests. This could also aid in creating both greater unity and prestige for our new nation. What say you, my lord?"
+ IR_TUS.1.a: "Now is not a good time."
+ IR_TUS.1.b: "Place the Order in Pisa. (Tuscany gets a mercenary company)"
+ IR_TUS.1.c: "Give the Order a fief in Elba."
+ IR_TUS.1.e: "I'm all in."
  
  #Naples (and Taranto)
  IR_flavor_NAP.10.t: "Passing of Giannantonio Orsini"

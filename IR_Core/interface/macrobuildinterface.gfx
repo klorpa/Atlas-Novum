@@ -32,8 +32,6 @@ spriteTypes = {
 
 
 
-
-
 	spriteType = {
 		name = "GFX_create_navy_template_bg"
 		texturefile = "gfx/interface/create_navy_template_bg.dds"
@@ -396,21 +394,21 @@ spriteTypes = {
 		name = "GFX_cannot_select"
 		texturefile = "gfx//interface//cannot_select.dds"
 		noOfFrames = 1
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_already_built"
 		texturefile = "gfx//interface//already_built.dds"
 		noOfFrames = 1
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_cannot_afford"
 		texturefile = "gfx//interface//cannot_afford.dds"
 		noOfFrames = 1
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
@@ -687,5 +685,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_states_tab_delegate_administration_entry"
 		texturefile = "gfx/interface/macro_states_bg/delegate_administration_entry_frame.dds"
+	}
+	
+	#Amyzonis
+	
+	spriteType = {
+		name = "GFX_census_macrobuild"
+		texturefile = "gfx//interface//census_macrobuild.dds"
 	}
 }

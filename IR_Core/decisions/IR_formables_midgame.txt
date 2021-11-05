@@ -1385,7 +1385,7 @@ country_decisions = {
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
-			set_country_flag = formed_serenissima_flag
+			set_country_flag = formed_tuscany_flag
 		}
 		ai_will_do = {
 			factor = 1
@@ -4528,14 +4528,14 @@ bt_najd_formation = {
 			if = {
 				limit = {
 					has_dlc = "Dharma"
-					has_reform_level = 3
+					#has_reform_level = 3
 				}
 				add_government_reform = mansabdari_reform
 			}
 			if = {
 				limit = {
 					has_dlc = "Dharma"
-					has_reform_level = 4
+					#has_reform_level = 4
 				}
 				add_government_reform = zabt_reform
 			}

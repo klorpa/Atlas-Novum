@@ -2,10 +2,10 @@
 
 owner = MOR
 controller = MOR 
-culture = moroccan
+culture = tamazight
 religion = sunni
 capital = "Kasba Tadla"
-trade_goods = grain
+trade_goods = fruit # grain
 hre = no
 base_tax = 3 
 base_production = 3

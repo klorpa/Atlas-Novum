@@ -2,7 +2,7 @@
 
 graphical_culture = latingfx #westerngfx
 
-color = { 84  96  136 } 
+color = { 244  202  0 } 
 
 historical_score = 75
 

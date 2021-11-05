@@ -86,7 +86,6 @@ native = {
 tribal = {
 	color = { 220 165 95 }
 	basic_reform = tribe_mechanic
-
 	legacy_government = {
 		tribal_despotism_legacy
 		chiefs_council_legacy
@@ -106,8 +105,9 @@ tribal = {
 		iwi_legacy 
 		altepetl_legacy
 		bedouin_tribe_legacy 
+		#tribal_democracy_legacy
 	}
-
+	
 	reform_levels = {
 		tribal_administration = { #TIER 1
 			reforms = {
@@ -128,6 +128,7 @@ tribal = {
 				altepetl
 				steppe_horde
 				great_mongol_state_reform #khanate
+
 			}
 		}
 		tribal_cultural_values = { #TIER 2
@@ -189,18 +190,15 @@ tribal = {
 				tribe_becomes_monarchy_reform
 				tribe_becomes_republic_reform
 				#tribe_becomes_horde_reform
-				horde_barbaric_despoilers_reform #?
+				#horde_barbaric_despoilers_reform #?
 				horde_tribal_unity_reform #?
-				#centralize_tribal_power_reform #VANILLA CUT
-				#retain_tribal_hierarchy_reform #VANILLA CUT
 			}
 		}
 	}
 }
 
-
 theocracy = {
-	color = { 240 205 240 }
+	color = { 240 220 230 }
 	basic_reform = theocracy_mechanic
 
 	legacy_government = {
@@ -211,22 +209,27 @@ theocracy = {
 		archbishop_legacy
 		feudal_theocracy_legacy #Imamate
 		caliphate_legacy
+		theocratic_republic_legacy #Zurich, Geneva, Ghent, Islamic Republics
 		#heavenly_kingdom_legacy #Theocratic China
 		#theodemocracy_legacy #Mormons, other Evangelical democracies
-		theocratic_republic_legacy #Zurich, Geneva, Ghent, Islamic Republics
 	}
 	reform_levels = {
 		theocratic_power_structure = { #Power Structure
 			reforms = {
-				#caliphate_reform
-				#heavenly_kingdom_reform 
-				papacy_reform
-				archbishop_reform
+				
+				### General
 				feudal_theocracy #Imamate
 				leading_clergy_reform #Clerical State
 				monastic_order_reform #Monastic Order
 				holy_state_reform #Holy State
-				#theocratic_republic_reform
+				caliphate_reform
+				
+				### Country specific
+				papacy_reform
+				
+				### Misc
+				#archbishop_reform # Not in the files
+				
 			}
 		}
 		theocratic_cadre = { #Theocratic Cadre
@@ -236,8 +239,6 @@ theocracy = {
 				religious_administrators_reform
 				pious_merchants_reform
 				subservient_administrators_reform
-				#universal_priestdom_reform 
-				#
 				warrior_monks_reform
 				guru_advisors_reform
 			}
@@ -253,11 +254,7 @@ theocracy = {
 				mission_to_civilize_reform
 				mission_to_kill_pirates_reform
 				kingdom_of_god_reform
-				
-		#		church_and_state_reform
-		#		religious_harmony_reform
-		#		god_and_man_reform
-		#		organising_our_religion_reform
+
 			}
 		}
 		congregations = { #Congregations
@@ -358,9 +355,13 @@ theocracy = {
 				roman_jurisprudence_reform
 				byzantine_bureacracy_reform
 				holy_inquisition_reform
+				executive_pardons_reform
 				provincial_sheriffs_reform
 				state_executors_reform
 				house_of_judicature_reform
+				judicial_committee_reform
+				quarantia_reform
+				supreme_court_reform
 				civil_code_reform
 			}
 		}
@@ -377,7 +378,6 @@ theocracy = {
 		}
 	}
 }
-
 
 monarchy = {
 	color = { 179 25 25 }
@@ -709,7 +709,6 @@ monarchy = {
 		states_general_reform
 		parliamentary_reform
 	}
-	
 }
 
 republic = {
@@ -756,6 +755,8 @@ republic = {
 
 		war_against_the_world_government #NEEDS EDITING
 		black_market_consortium_government #NEEDS EDITING
+		#
+		constitutional_republic
 	}
 	
 	reform_levels = {
@@ -778,7 +779,7 @@ republic = {
 				colonial_government #Colonial Assembly
 				#
 				dutch_republic #Stadtholder Republic
-				hanseatic_city_reform  #Hanseatic City
+				#hanseatic_city_reform  #Hanseatic City # Outdated
 				free_city #Free City
 				trading_city #Trading City
 				united_cantons_reform #Canton
@@ -1007,6 +1008,7 @@ republic = {
 	}
 }
 
+
 pre_dharma_mapping = {
 	#Primitive
 	clan_council = {
@@ -1037,6 +1039,7 @@ pre_dharma_mapping = {
 		government = native
 		legacy_government = bantu_council_legacy
 	}
+	
 	#Tribal
 	tribal_despotism = {
 		government = tribal
@@ -1102,6 +1105,7 @@ pre_dharma_mapping = {
 		government = tribal
 		legacy_government = altepetl_legacy
 	}
+	
 	#Theocracy
 	leading_clergy_reform = {
 		government = theocracy
@@ -1127,14 +1131,14 @@ pre_dharma_mapping = {
 		government = monarchy
 		legacy_government = feudal_theocracy_legacy
 	}
-	#caliphate_reform = {
-	#	government = monarchy
-	#	legacy_government = caliphate_legacy
-	#}
-	#theocratic_republic_reform = {
-	#	government = monarchy
-	#	legacy_government = theocratic_republic_legacy
-	#}
+	caliphate_reform = {
+		government = monarchy
+		legacy_government = caliphate_legacy
+	}
+	theocratic_republic_reform = {
+		government = republic
+		legacy_government = theocratic_republic_legacy
+	}
 	
 	#Monarchy
 	#TIER 1 BASIC
@@ -1404,10 +1408,10 @@ pre_dharma_mapping = {
 		government = republic
 		legacy_government = dutch_republic_legacy
 	}
-	hanseatic_city_reform = {
-		government = republic
-		legacy_government = hanseatic_city_legacy
-	}
+	#hanseatic_city_reform = {
+	#	government = republic
+	#	legacy_government = hanseatic_city_legacy
+	#}
 	imperial_city = {
 		government = republic
 		legacy_government = imperial_city

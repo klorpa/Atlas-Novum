@@ -1,18 +1,19 @@
 #ON ACTIONS ARE NOT MODULAR, ONLY ONE OVERWRITE WILL LOAD PER MOD - ANY MODMODS MUST ADAPT THIS FILE
+
 on_startup = {
-	events = {
-		muslim_school_events.20 #Pick School
-		IR_druze_unlock.1 #Unlocks Druze schools
-		IR_druze_unlock.2 #Unlocks Druze schools
+	emperor = {
+		save_global_event_target_as = Emperor
 	}
-	initialize_schools_effect = yes #This is only used here but is used for readability of on_action file.
-	emperor = { save_global_event_target_as = Emperor } # Just do "emperor" to scope to it
 	if = {
 		limit = {
 			is_emperor_of_china = yes
 		}
 		save_global_event_target_as = EmperorOfChina
-	}	
+	}
+	events = {
+#		muslim_school_events.20 #Pick School
+#		flavor_fra.15000 #Make the French Revolution happen if starting in 1789
+	}
 	if = {
 		limit = {
 			has_dlc = "Cradle of Civilization"
@@ -50,129 +51,38 @@ on_startup = {
 			}
 		}
 				
-		#######################
-		##IMMATURE UNREFINED ##
-		#######################
-		4400 = { save_global_event_target_as = birds_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4401 = { save_global_event_target_as = bison_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4402 = { save_global_event_target_as = camels_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4403 = { save_global_event_target_as = copper_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1779 = { save_global_event_target_as = crustaceans_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1781 = { save_global_event_target_as = dates_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1782 = { save_global_event_target_as = fish_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1783 = { save_global_event_target_as = fruit_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1784 = { save_global_event_target_as = fur_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1785 = { save_global_event_target_as = gold_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1786 = { save_global_event_target_as = grain_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1787 = { save_global_event_target_as = hardwood_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1788 = { save_global_event_target_as = herbs_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1789 = { save_global_event_target_as = horses_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1790 = { save_global_event_target_as = incense_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1791 = { save_global_event_target_as = ivory_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4168 = { save_global_event_target_as = jade_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1793 = { save_global_event_target_as = livestock_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1794 = { save_global_event_target_as = maize_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1795 = { save_global_event_target_as = millet_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1796 = { save_global_event_target_as = palm_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1797 = { save_global_event_target_as = pelagic_fish_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1798 = { save_global_event_target_as = potatoes_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1799 = { save_global_event_target_as = pottery_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1801 = { save_global_event_target_as = poultry_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1802 = { save_global_event_target_as = rice_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1803 = { save_global_event_target_as = salt_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1804 = { save_global_event_target_as = shoal_fish_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1807 = { save_global_event_target_as = silver_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1814 = { save_global_event_target_as = softwood_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1173 = { save_global_event_target_as = stone_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1950 = { save_global_event_target_as = tomatoes_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		2194 = { save_global_event_target_as = tin_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		2200 = { save_global_event_target_as = tropical_wood_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		2251 = { save_global_event_target_as = whales_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		2334 = { save_global_event_target_as = wool_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		######################
-		## MATURE UNREFINED ##
-		######################
-		2426 = { save_global_event_target_as = apiculture_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		2740 = { save_global_event_target_as = alum_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		2936 = { save_global_event_target_as = cloves_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4146 = { save_global_event_target_as = black_pepper_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4154 = { save_global_event_target_as = cocoa_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4156 = { save_global_event_target_as = carpet_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4157 = { save_global_event_target_as = cassava_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4159 = { save_global_event_target_as = cinnamon_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4160 = { save_global_event_target_as = coffee_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4161 = { save_global_event_target_as = cotton_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4162 = { save_global_event_target_as = dairy_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11485 = { save_global_event_target_as = dyes_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11446 = { save_global_event_target_as = gems_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11536 = { save_global_event_target_as = hemp_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11559 = { save_global_event_target_as = iron_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11180 = { save_global_event_target_as = lead_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11181 = { save_global_event_target_as = leather_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11182 = { save_global_event_target_as = marble_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4569 = { save_global_event_target_as = mollusk_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11183 = { save_global_event_target_as = mercury_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11184 = { save_global_event_target_as = chili_peppers_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4153 = { save_global_event_target_as = nuts_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1790 = { save_global_event_target_as = spices_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1791 = { save_global_event_target_as = olives_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		6508 = { save_global_event_target_as = opium_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		6509 = { save_global_event_target_as = paper_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		6510 = { save_global_event_target_as = niter_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		6455 = { save_global_event_target_as = slaves_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		6469 = { save_global_event_target_as = saffron_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		6481 = { save_global_event_target_as = silk_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		6470 = { save_global_event_target_as = legumes_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11738 = { save_global_event_target_as = sugar_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11753 = { save_global_event_target_as = sulfur_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11754 = { save_global_event_target_as = tea_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5545 = { save_global_event_target_as = tobacco_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11595 = { save_global_event_target_as = vanilla_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		1913 = { save_global_event_target_as = zinc_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		######################
-		## IMMATURE REFINED ##
-		######################
-		11661 = { save_global_event_target_as = artifices_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11662 = { save_global_event_target_as = beer_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11664 = { save_global_event_target_as = bricks_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11668 = { save_global_event_target_as = books_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11669 = { save_global_event_target_as = brass_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11670 = { save_global_event_target_as = bronze_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		11679 = { save_global_event_target_as = confectionary_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		10900 = { save_global_event_target_as = fertilizer_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		7247 = { save_global_event_target_as = furniture_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		10901 = { save_global_event_target_as = glass_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		10902 = { save_global_event_target_as = gunpowder_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		10965 = { save_global_event_target_as = metalwork_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4167 = { save_global_event_target_as = jewelry_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		4179 = { save_global_event_target_as = liquor_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5118 = { save_global_event_target_as = naval_supplies_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5119 = { save_global_event_target_as = chinaware_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5121 = { save_global_event_target_as = resin_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5124 = { save_global_event_target_as = rubber_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5126 = { save_global_event_target_as = rum_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5120 = { save_global_event_target_as = steel_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5111 = { save_global_event_target_as = cloth_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5112 = { save_global_event_target_as = wine_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		####################
-		## MATURE REFINED ##
-		####################
-		5123 = { save_global_event_target_as = aluminum_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5116 = { save_global_event_target_as = chemicals_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5117 = { save_global_event_target_as = concrete_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5127 = { save_global_event_target_as = explosives_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5507 = { save_global_event_target_as = machines_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5508 = { save_global_event_target_as = machine_parts_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5509 = { save_global_event_target_as = medicine_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5510 = { save_global_event_target_as = munitions_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5511 = { save_global_event_target_as = perfume_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5512 = { save_global_event_target_as = preserves_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		############
-		## LATENT ##
-		############
-		5513 = { save_global_event_target_as = chromite_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5514 = { save_global_event_target_as = coal_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
-		5515 = { save_global_event_target_as = phosphate_store set_variable = { which = IR_price_mod value = 1 } set_variable = { which = IR_goods_size value = 0 } set_variable = { which = IR_demand_value value = 0 } set_variable = { which = IR_trading_number value = 0 } }
+		every_province = {
+			limit = { OR = { is_city = yes is_empty = yes } }
+			if = { limit = { has_province_modifier = climate_sicco } set_province_flag = climate_sicco }
+			if = { limit = { has_province_modifier = climate_xeric } set_province_flag = climate_xeric }
+			if = { limit = { has_province_modifier = climate_veldt } set_province_flag = climate_veldt }
+			if = { limit = { has_province_modifier = climate_montane } set_province_flag = climate_montane }
+			if = { limit = { has_province_modifier = climate_polar } set_province_flag = climate_polar }
+			#
+			if = { limit = { has_province_modifier = climate_outback } set_province_flag = climate_outback }
+			if = { limit = { has_province_modifier = climate_levante } set_province_flag = climate_levante }
+			if = { limit = { has_province_modifier = climate_chaco } set_province_flag = climate_chaco }
+			if = { limit = { has_province_modifier = climate_pratumic } set_province_flag = climate_pratumic }
+			if = { limit = { has_province_modifier = climate_boreal } set_province_flag = climate_boreal }
+			#
+			if = { limit = { has_province_modifier = climate_chaparral } set_province_flag = climate_chaparral }
+			if = { limit = { has_province_modifier = climate_mediterranean } set_province_flag = climate_mediterranean }
+			if = { limit = { has_province_modifier = climate_temperate } set_province_flag = climate_temperate }
+			if = { limit = { has_province_modifier = climate_continental } set_province_flag = climate_continental }
+			if = { limit = { has_province_modifier = climate_hemiboreal } set_province_flag = climate_hemiboreal }
+			#
+			if = { limit = { has_province_modifier = climate_cerradic } set_province_flag = climate_cerradic }
+			if = { limit = { has_province_modifier = climate_calidic } set_province_flag = climate_calidic }
+			if = { limit = { has_province_modifier = climate_mesothermal } set_province_flag = climate_mesothermal }
+			if = { limit = { has_province_modifier = climate_nemoral } set_province_flag = climate_nemoral }
+			if = { limit = { has_province_modifier = climate_oceanic } set_province_flag = climate_oceanic }
+			#
+			if = { limit = { has_province_modifier = climate_tropical } set_province_flag = climate_tropical }
+			if = { limit = { has_province_modifier = climate_pantanal } set_province_flag = climate_pantanal }
+			if = { limit = { has_province_modifier = climate_subtropical } set_province_flag = climate_subtropical }
+			if = { limit = { has_province_modifier = climate_cascadic } set_province_flag = climate_cascadic }
+			if = { limit = { has_province_modifier = climate_maritime } set_province_flag = climate_maritime }
+		}
 		every_province = {
 			limit = { is_city = yes }
 			IR_check_dev_variables = yes #includes check climate
@@ -185,13 +95,13 @@ on_startup = {
 			set_variable = { which = IR_wealth_progress value = 1 }
 			set_variable = { which = IR_pop_progress value = 1 }
 		}
-		every_country = {
-			limit = { is_subject = yes OR = { is_subject_of_type = fief is_subject_of_type = dominion } NOT = { has_country_flag = IR_subj_prog_init } }
-			IR_check_subj_variables = yes
-			set_variable = { which = IR_subj_cohesion value = 0 }
-			set_country_flag = IR_subj_prog_init
-			overlord = { set_country_flag = overlord_of_@PREV }
-		}
+		#every_country = {
+		#	limit = { is_subject = yes OR = { is_subject_of_type = fief is_subject_of_type = dominion } NOT = { has_country_flag = IR_subj_prog_init } }
+		#	IR_check_subj_variables = yes
+		#	set_variable = { which = IR_subj_cohesion value = 0 }
+		#	set_country_flag = IR_subj_prog_init
+		#	overlord = { set_country_flag = overlord_of_@PREV }
+		#}
 		set_global_flag = IR_dev_init
 	}
 	#BT AND BR INIT
@@ -202,12 +112,60 @@ on_startup = {
 	
 	##############################
 	#consolidated alt start setup#
+	if = {
+		limit = {
+			current_age = age_of_discovery
+		}
+		KHM = {
+			add_disaster_progress = {
+				disaster = dark_age_of_cambodia
+				value = 100
+			}
+		}
+		LXA = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = lxa_loyalty_flag }
+				}
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = -10
+				}
+				set_country_flag = lxa_loyalty_flag
+			}
+		}
+	}
+	if = {
+		limit = {
+			current_age = age_of_discovery
+		}
+		MAJ = {
+			add_disaster_progress = {
+				disaster = fall_of_majapahit
+				value = 100
+			}
+		}
+	}
 	#by date
 	if = {
 		limit = { started_in = 1459.1.1 }
 		set_global_flag = constantinople_restored
 		TUR = { set_country_flag = relocated_capital_constantinople }
 	}	#Preventing exploits relating to Contaninople's growth.
+	initialize_schools_effect = yes #This is only used here but is used for readability of on_action file.
+
+	if = {
+		limit = {
+			NOT = { has_country_flag = new_flavour_bav_13_has_been_triggered }
+			OR = {
+				tag = UBV
+				tag = LBV
+				tag = ING
+			}
+		}
+		set_country_flag = new_flavour_bav_13_has_been_triggered
+		country_event = { id = new_flavour_bav.13 days = 90 } #better not to allow almost instant DOWs
+	}
 	if = {
 		limit = {
 			started_in = 1495.1.1
@@ -239,13 +197,22 @@ on_startup = {
 		}
 		set_country_flag = new_flavour_bav_13_has_been_triggered
 		country_event = { id = new_flavour_bav.13 days = 90 } #better not to allow almost instant DOWs
+	}	
+	if = {
+		limit = {
+			exists = SUK
+		}
+		SUK = {
+			set_ruler_flag = suk_monarch_flag
+		}
+		AYU = {
+			set_country_flag = ayu_monarch_flag
+		}
 	}
-	IR_hyw_devastated_french_lands = yes
 	##############################
-	#
-	#ENG = { country_event = { id = IR_flavor_FRA.10 days = 0 } }
-	#FRA = { country_event = { id = IR_flavor_FRA.11 days = 0 } }
-	#
+	#Imperialism Reinvigorated	
+	##############################
+	#IR_hyw_devastated_french_lands = yes
 	if = { limit = { ai = no } country_event = { id = setup.99 days = 0 } } # IR INTRO EVENT
 	if = { 
 		limit = { started_in = 1444.11.11 NOT = { started_in = 1444.11.16 } }
@@ -254,11 +221,6 @@ on_startup = {
 			days = 0
 		}
 	}
-	#SET BASE EVENT_TARGETS IN MISSIONS
-	#HAB = {
-	#	save_event_target_as = fra_habsburg_rival_tag1
-	#	save_event_target_as = fra_habsburg_rival_tag2
-	#}
 	if = {
 		limit = {
 			started_in = 1444.11.10
@@ -360,7 +322,7 @@ on_new_monarch = {
 		trigger_switch = { 
 			on_trigger = has_country_flag
 			magdalena_regency_flag = {
-				country_event = { id = IR_flavor_NAV.19 days = 10 }
+				#country_event = { id = IR_flavor_NAV.19 days = 10 } #REMOVED FOR NOW
 			}
 		}
 	}
@@ -372,7 +334,7 @@ on_new_monarch = {
 		trigger_switch = { 
 			on_trigger = has_country_flag
 			catalina_navarra_heiress_flag = { 
-				country_event = { id = IR_flavor_NAV.20 days = 1 } }
+				#country_event = { id = IR_flavor_NAV.20 days = 1 } } #REMOVED FOR NOW
 		}
 	}
 	events = {
@@ -400,7 +362,7 @@ on_new_monarch = {
 		flavor_boh.2			#Heretic Kings
 		flavor_hun.17			#Maintaining the Black Army
 		flavor_tim.1			#Death of Shah Rukh
-		muslim_school_events.20 #No Religious School
+		#muslim_school_events.20 #No Religious School
 		flavor_daimyo.4			#Shiba Yoshikado
 	}
 	random_events = { 
@@ -500,17 +462,17 @@ on_monarch_death = {
 #			country_event = { id = IR_flavor_NAV.4 days = 1 }
 		}
 	}
-	if = {
-		limit = {
-			tag = NAV
-		}
-		trigger_switch = { 
-			on_trigger = has_country_flag
-			john2_flag = { NAV = { country_event = { id = IR_flavor_NAV.9 days = 0 } } }
-			francis_febo_flag = { NAV = { country_event = { id = IR_flavor_NAV.18 days = 10 } } }
-			Iberian_succession_flag = {  NAV = { country_event = { id = IR_flavor_NAV.21 days = 0 } } }
-		}
-	}
+	#if = {
+	#	limit = {
+	#		tag = NAV
+	#	}
+	#	trigger_switch = { 
+	#		on_trigger = has_country_flag
+	#		john2_flag = { NAV = { country_event = { id = IR_flavor_NAV.9 days = 0 } } }
+	#		francis_febo_flag = { NAV = { country_event = { id = IR_flavor_NAV.18 days = 10 } } }
+	#		Iberian_succession_flag = {  NAV = { country_event = { id = IR_flavor_NAV.21 days = 0 } } }
+	#	}
+	#} #REMOVED FOR NOW
 	if = {
 		limit = {
 			has_reform = high_kingship
@@ -702,7 +664,7 @@ on_war_won = {
 			}
 		}
 		PRO = {
-			country_event = { id = IR_flavor_NAV.16 days = 1 }
+			#country_event = { id = IR_flavor_NAV.16 days = 1 } #REMOVED FOR NOW
 		}
 	}
 }
@@ -1299,11 +1261,9 @@ on_religion_change = {
 		}
 	}
 	events = {
-		muslim_school_events.20 #Pick School
+		#muslim_school_events.20 #Pick School
 		propagate_religion_events.7 #Propagated Country is now Muslim
 		IR_generic.2 #set base reformed schools
-		IR_druze_unlock.1 #Unlocks Druze schools
-		IR_druze_unlock.2 #Unlocks Druze schools
 	}
 }
 

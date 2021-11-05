@@ -723,7 +723,7 @@
  spa_yucatan_title:0 "Annex the Yucatán"
  spa_yucatan_desc:0 "The three conquistadors, all named Francisco de Montejo, completed the conquest of Yucatán with the foundation of the city of Valladolid on May 28th, 1543. A highlight of the campaign included a seige of Mérida by Mayan troops of Nachi Cocom, ultimately ending in Spanish victory. We should continue our push into Yucatán, and claim the vast riches for our Empire."
  spa_conquer_kiche_title:0 "Conquer the Kiche"
- spa_conquer_kiche_desc:0 "In 1524 the Spanish conquistador Pedro de Alvarado arrived in Guatemala with both Spanish troops, and locals that had allied them. He made battle with the K'iche' natives, led by Tecún Umán, a lord from Totonicapán. The Spanish were victorious and the K'iche' offered vassalage, but the lords of Qʼumarkaj were decieved and burned alive by Alvarado, and replaced with lower K'iche' leaders as puppets. We should continue into Guatemala, and conquer these native savages."
+ spa_conquer_kiche_desc:0 "In 1524 the Spanish conquistador Pedro de Alvarado arrived in Guatemala with both Spanish troops, and locals that had allied them. He made battle with the K'iche' natives, led by Tecún Umán, a lord from Totonicapán. The Spanish were victorious and the K'iche' offered vassalage, but the lords of Q'umarkaj were decieved and burned alive by Alvarado, and replaced with lower K'iche' leaders as puppets. We should continue into Guatemala, and conquer these native savages."
  spa_honduras_title:0 "Expand Guatemala"
  spa_honduras_desc:0 "In March 1524, Gil González Dávila became the first Spaniard to arrive in what is now Honduras with the intention of conquest. He founded the first Spanish port upon the Caribbean coast, Puerto de Caballos, which became an important staging post for later expeditions. In 1537, Francisco de Montejo was appointed governor and by 1539 the main phase of Spanish conquest was complete. We should conquer these lands for ourselves, take the riches, and civilise the savages. "
 
@@ -874,7 +874,7 @@
  tur_subjugate_albania_title:0 "Subjugate Albania"
  tur_subjugate_albania_desc:0 " The Ottomans first entered Albania in 1385 at the invitation of the Albanian Noble Karl Thopia to suppress the forces of the other Albanian noble Balsha II at the Battle of Savra. The Sanjak of Albania was established in 1420 controlling mostly Central Albania, while Ottoman rule became more consolidated in 1479, after the fall of Shkodra. The Albanians revolted again in 1481 but the Ottomans finally controlled Albania by 1488. We must look towards annexing all of Albania. Must must now secure our hold on Albania by annexing all of it into our Empire, even Skanderbeg will be powerless to stop us!"
  tur_crush_montenegro_title:0 "Crush Montenegro"
- tur_crush_montenegro_desc:0 "In 1421, Zeta was annexed to the Serbian Despotate, but after 1455, another noble family from Zeta, the Crnojevićs, became sovereign rulers of the country, making it the last free monarchy of the Balkans before it fell to the Ottomans in 1496, and got annexed to the sanjak of Shkodër. We must further solidify our control of the Balkans by annexing Montenegro"
+ tur_crush_montenegro_desc:0 "In 1421, Zeta was annexed to the Serbian Despotate, but after 1455, another noble family from Zeta, the Crnojevics, became sovereign rulers of the country, making it the last free monarchy of the Balkans before it fell to the Ottomans in 1496, and got annexed to the sanjak of Shkodër. We must further solidify our control of the Balkans by annexing Montenegro"
  tur_ragusan_fealty_title:0 "Enforce Ragusan Fealty"
  tur_ragusan_fealty_desc:0 "The city successfully balanced its sovereignty between the interests of Venice and the Ottoman Empire for centuries. We must enforce our will & influence on Ragusa, if we neglet to do so Ragusa will fall further & further into the sphrere of influence of Venice, and this we cannot allow"
  tur_annex_dalmatia_title:0 "Annex Dalmatia"
@@ -889,9 +889,9 @@
  tur_end_serenissima_desc:0 "At last, we are now ready to make a final & decisive strike against our maritime rival, Venice, it is time to end this pest, this thorn in our side, and at last, only Ottoman Galley will dominate the Medditarian!" 
 
  tur_hunt_skanderbeg_title:0 "Combat Skanderbeg"
- tur_hunt_skanderbeg_desc:0 "Skanderbeg, byname of George Kastrioti, was born in 1404 in Albania, Skanderbeg was given as a hostage to the Turkish sultan as a child. Converted to Islām and educated at Edirne, Turkey, he was given the name Iskander—after Alexander the Great—and the rank of bey (hence Skanderbeg) by Sultan Murad II. During the defeat of the Turks at Niš (1443), in Serbia, Skanderbeg abandoned the Turkish service and joined his Albanian countrymen against the forces of Islām. He embraced Christianity, reclaimed his family possessions, and in 1444 organized a league of Albanian princes. In the period 1444–66 he effectively repulsed 13 Turkish invasions. Skanderbeg has been a thorn in our side for too long, we must combat this apostate & have this traitors head delivered to the feet of the Sultan!"
+ tur_hunt_skanderbeg_desc:0 "Skanderbeg, byname of George Kastrioti, was born in 1404 in Albania, Skanderbeg was given as a hostage to the Turkish sultan as a child. Converted to Islam and educated at Edirne, Turkey, he was given the name Iskander—after Alexander the Great—and the rank of bey (hence Skanderbeg) by Sultan Murad II. During the defeat of the Turks at Niš (1443), in Serbia, Skanderbeg abandoned the Turkish service and joined his Albanian countrymen against the forces of Islam. He embraced Christianity, reclaimed his family possessions, and in 1444 organized a league of Albanian princes. In the period 1444–66 he effectively repulsed 13 Turkish invasions. Skanderbeg has been a thorn in our side for too long, we must combat this apostate & have this traitors head delivered to the feet of the Sultan!"
  tur_intimidate_brankovic_title:0 "Intimidate Brankovic"
- tur_intimidate_brankovic_desc:0 "Đurađ Branković was the Serbian Despot from 1427 to 1456. He was one of the last Serbian medieval rulers. During his reign, the despotate was a vassal of both, Ottoman sultans as well as Hungarian kings. In 1455, he was wounded and imprisoned during clashes with the Hungarians, after which the young Sultan Mehmed II launched the Siege of Belgrade and its large Hungarian garrison. Despot Đurađ died at the end of 1456, due to complications stemming from the wound. After his death, Serbia, Bosnia and Albania (West Balkans) became practically annexed by Sultan Mehmed II. We must intimidate Branovic, if we fail to do so he's likely to fall fully under the influence of the Hungarians, and as a result will most likely start joining the Hungarians in their hostilities against us"
+ tur_intimidate_brankovic_desc:0 "Ðurad Brankovic was the Serbian Despot from 1427 to 1456. He was one of the last Serbian medieval rulers. During his reign, the despotate was a vassal of both, Ottoman sultans as well as Hungarian kings. In 1455, he was wounded and imprisoned during clashes with the Hungarians, after which the young Sultan Mehmed II launched the Siege of Belgrade and its large Hungarian garrison. Despot Ðurad died at the end of 1456, due to complications stemming from the wound. After his death, Serbia, Bosnia and Albania (West Balkans) became practically annexed by Sultan Mehmed II. We must intimidate Branovic, if we fail to do so he's likely to fall fully under the influence of the Hungarians, and as a result will most likely start joining the Hungarians in their hostilities against us"
  tur_secure_serbia_title:0 "Secure Serbia"
  tur_secure_serbia_desc:0 "The downfall of Serbia was accelerated after the Fall of Constantinople in 1453 which allowed for the Ottoman sultan Mehmed the Conqueror to turn his efforts to capture the remaining parts of the Balkans and Hungary. The Turks conquered the southern parts of Serbia in 1455, rich in both ores and arable land. We must further solidify our control on the Balkans, and securing Serbia is key to this objective"
  tur_raid_bosnia_title:0 "Raid Bosnia"
@@ -941,7 +941,7 @@
  tur_aegean_fleet_title:0 "An Aegean Fleet"
  tur_aegean_fleet_desc:0 "The first naval victory of the Ottomans was the conquest of Kalolimno in the Sea of Marmara in 1308. This trend continued, with landings on Thrace in 1321, an Ottoman fortress in Europe being built in 1351, and the Anatolian shores of the Bosporus Strait near Constantinople in 1352. In 1373 the first landings on the Aegean shores of Macedonia were made and the first siege of Thessaloniki in 1374. Conquests continued on and on, further up the Balkan Peninsula and in the Aegean Islands. The Ottoman-Venetian War of 1463-1479 was a prime example of why we need to expand our navy, and so we shall. Expand our fleet to make this Mare Nostrum!"
  tur_crimean_succession_title:0 "Khans of Crimea"
- tur_crimean_succession_desc:0 "Hagı I Giray, the first Khan and founder of the Crimean Khanate, had three sons who contended for the throne. Mubarek, Nur Devlet, and Meñli I Giray, with two, three and three reigns respectively. The Ottomans intervened in these petty squabbles and installed Meñli I Giray, and conquered the Greek Principality of Theodoro in 1475, as well as the Genoese colonies at Cembalo, Soldaia, and Caffa. After this point the Crimean Khanata became a protectorate of the Ottomans, and enjoyed veto power over the selection of new Khans. This influence continued until the Ottomans annexed the Crimean Coast, while still recognising the Khanate as the legitimate rulers of the steppes. Initially Meñli I Giray resisted this invasion but was imprisoned for three years, and learned his lesson, as he accepted Ottoman Suzerainty. It is time for us to bring the Crimeans into the fold."
+ tur_crimean_succession_desc:0 "Hagi I Giray, the first Khan and founder of the Crimean Khanate, had three sons who contended for the throne. Mubarek, Nur Devlet, and Meñli I Giray, with two, three and three reigns respectively. The Ottomans intervened in these petty squabbles and installed Meñli I Giray, and conquered the Greek Principality of Theodoro in 1475, as well as the Genoese colonies at Cembalo, Soldaia, and Caffa. After this point the Crimean Khanata became a protectorate of the Ottomans, and enjoyed veto power over the selection of new Khans. This influence continued until the Ottomans annexed the Crimean Coast, while still recognising the Khanate as the legitimate rulers of the steppes. Initially Meñli I Giray resisted this invasion but was imprisoned for three years, and learned his lesson, as he accepted Ottoman Suzerainty. It is time for us to bring the Crimeans into the fold."
  tur_acquire_akkerman_title:0 "Acquire Akkerman"
  tur_acquire_akkerman_desc:0 "Akkerman was beseiged for the first time by the Ottomans in 1420, but was successfully defended by Prince Alexander the Kind. Another attempt was made, this time successfully in 1484, along with Kilia, and was the last of the Black Sea ports to be conquered by the Ottomans. The Moldavian prince Stephen the Great was unable to aid in its defence due to the threat of a Polish invasion, and the defenders agree to surrender the citadel when the Ottomans claimed to have reached an agreement for safe passage with Prince Stephen. This was a lie, and most of the city dwellers were slaughtered. We must control this fortress, and land to aid in our control of the Caucauses and further into Eastern Europe."
  tur_subjugate_moldavia_title:0 "Subjugate Moldavia"
@@ -1062,11 +1062,11 @@
  tur_secure_trebizond_title:0 "Secure Trebizond"
  tur_secure_trebizond_desc:0 "After King John's death in 1459, his brother David came to power. Having isolated Trebizond, Mehmed quickly swept down upon it before the inhabitants knew he was coming, and placed it under siege. The city held out for a month before David surrendered on August 15, 1461. We must now turn our attentions to the Last Christian Kingdom in Anatolia, let us go forth & conquer this Kingdom in the name of the Sultan and Allah"
  tur_duel_for_dulkadir_title:0 "Duel the Dulkadirids"
- tur_duel_for_dulkadir_desc:0 "For a while, the Beylik of Dulkadiroğulları had an influence extending from Kırşehir to Mosul, but with the rise of the Ottomans, they became a buffer state between the Ottomans and the Mamluk Sultanate of Egypt. They became part of the Ottoman Empire in early 16th century. We must look towards intergrating this buffer state into our realm before the Mamluks get any ideas"
+ tur_duel_for_dulkadir_desc:0 "For a while, the Beylik of Dulkadirogullari had an influence extending from Kirsehir to Mosul, but with the rise of the Ottomans, they became a buffer state between the Ottomans and the Mamluk Sultanate of Egypt. They became part of the Ottoman Empire in early 16th century. We must look towards intergrating this buffer state into our realm before the Mamluks get any ideas"
  tur_take_diyarbakir_title:0 "Uzan Hasan's Horde"
- tur_take_diyarbakir_desc:0 "Uzun Hasan met the Ottomans in battle near Erzincan in 1471 at the behest of the Ottomans European rivals, advanced as far as Akşehir, pillaging and destroying Tokat, and fought a battle at Tercan in 1473. He was defeated by Mehmed II at Battle of Otlukbeli in the late summer of 1473. We must look towards eliminating this nation, for they're constantly striking deals with our rivals in order to keep us in check, this cannot be tolerated"
+ tur_take_diyarbakir_desc:0 "Uzun Hasan met the Ottomans in battle near Erzincan in 1471 at the behest of the Ottomans European rivals, advanced as far as Aksehir, pillaging and destroying Tokat, and fought a battle at Tercan in 1473. He was defeated by Mehmed II at Battle of Otlukbeli in the late summer of 1473. We must look towards eliminating this nation, for they're constantly striking deals with our rivals in order to keep us in check, this cannot be tolerated"
  tur_take_erzurum_title:0 "Beylik of Afshar"
- tur_take_erzurum_desc:0 "Afshar Beylik was a Turkish beylik in Eastern Anatolia in the early 16th century. It was founded by the Afshar tribe which was an Oghuz Turk tribe with Kızılbaş faith. In 1473 Mehmet II of the Ottoman Empire defeated Uzun Hasan of Akkoyunlu Turcoman Empire which was controlling the Eastern Anatolia. This defeat was a severe blow to Akkoyunlu prestige and they lost their control on the north territories of the empire. We must look towards consolidating our rule in the Easterb Anatolia, and to do so, we must conquer Afshar"
+ tur_take_erzurum_desc:0 "Afshar Beylik was a Turkish beylik in Eastern Anatolia in the early 16th century. It was founded by the Afshar tribe which was an Oghuz Turk tribe with Kizilbas faith. In 1473 Mehmet II of the Ottoman Empire defeated Uzun Hasan of Akkoyunlu Turcoman Empire which was controlling the Eastern Anatolia. This defeat was a severe blow to Akkoyunlu prestige and they lost their control on the north territories of the empire. We must look towards consolidating our rule in the Easterb Anatolia, and to do so, we must conquer Afshar"
  tur_samtskhe_title:0 "Subjugate Samtskhe"
  tur_samtskhe_desc:0 "During the 10th-15th centuries, this region was a part of the united Georgian Kingdom. In the 16th century it was the independent Principality of Samtskhe until it was occupied and annexed by the Ottoman Empire. We must continue our annexation of Georgia, our next step is to take Samtskhe"
  tur_georgia_title:0 "Gun Down Georgia"
@@ -1501,3 +1501,102 @@
  utr_dominate_guelders_desc:0 ""
  utr_subjugate_holland_title:0 "Subjugate Holland"
  utr_subjugate_holland_desc:0 ""
+ 
+ #Brittany
+ bri_anjou_dukedom_title:0 "The Duchy of Anjou"
+ bri_anjou_dukedom_desc:0 "The Duke of Anjou, Rene, leads a pitiful lifestyle, being a lapdog for the King of France. Having already lost one kingdom of his own, he has retired back to France, as well as being the Duke of Bar and Lorraine. Such a man is not fit to rule, and as one of the strongest leaders in the region it just makes sense for our [Root.Monarch.GetTitle] to assume responsibilities here too."
+ bri_seize_east_normandy_title:0 "The Triple Dukedom"
+ bri_seize_east_normandy_desc:0 "Already ruling over two Dukedoms, Brittany and Anjou, it's about time that we ruled over some more. Contentin in Lower Normandy was historically Breton owned, so it isn't that far of a stretch to say we have rights to the whole Duchy, right? By diplomacy, or by force, bring our third Duchy into the fold."
+ bri_chase_Leroi_title:0 "Chase Le Roi"
+ bri_chase_Leroi_desc:0 "We have already proven ourselves in battle against the French King, having taken Paris and successfully controlling the North. However they remain in exile in the South, and will undoubtably be looking to retake the land. We must take our place as Ruler of all of France, seizing any personal holdings from them and once and for all bring peace to our Kingdom."
+ bri_western_france_title:0 "Establish New France"
+ bri_western_france_desc:0 "Having already established a New Brittany, a duchy under the Kingdom of France, it only makes sense if we're to establish more territories in the New World that it would be a 'New France'. We shall expand our presence in the region to lock in our monopoly of trade and wealth in Canada."
+ 
+ #Bulgaria
+ bul_independent_title:0 "Independent Bulgaria"
+ bul_independent_desc:0 "In the late 14th century, the Ottomans conquered Bulgaria and made it into the core of Rumelia, or “Roman Province”, which encompassed the Balkan section of the Ottoman Empire & was the richest Ottoman region. At long last, by the grace of God, the Bulgarian people are at last, free from the Ottoman yoke! No longer shall we be slaves & beholden to the tyrannical heathen Turks who claim to be our masters, it's Bulgarias turn now to be the master!"
+
+ bul_north_bulgaria_title:0 "Retake North Bulgaria"
+ bul_north_bulgaria_desc:0 "Moesia was settled by Slavs during the 7th century. Bulgars, arriving from Old Great Bulgaria, conquered Lower Moesia by the end of the 7th century. During the 8th century the Byzantine Empire lost also Upper Moesian territory to the First Bulgarian Empire, then several centuries later, the Ottomans conquered Bulgaria in the late 14th century. We are now one more step closer to returning Bulgaria to her former glory by retaking our old lands of Moesia!"
+
+ bul_bulgaria_title:0 "Reclaim Bulgaria"
+ bul_bulgaria_desc:0 "The Byzantine Empire retained control over Thrace until the 7th century when the northern half of the entire region was incorporated into the First Bulgarian Empire and the remainder was reorganized in the Thracian theme. The Empire regained the lost regions in the late 10th century until the Bulgarians regained control of the northern half at the end of the 12th century. In 1352, the Ottoman Turks conducted their first incursion into the region subduing it completely within a matter of two decades and occupying it for five centuries. We've managed to retake our old lands of upper thrace, this will now give us a nice staging ground that'll enable us to more easilly march into & eventually take the whole of Thrace itself!"
+
+ bul_macedonia_title:0 "A Macedonian Expedition"
+ bul_macedonia_desc:0 "The region of Macedonia was ruled by the First Bulgarian Empire throughout the 9th and the 10th century after they gained it via conquest from the Byzantines, but it was later lost to the Byzantines & was then eventually lost to the Ottomans. We've managed to take back the old lands of Macedonia that were the political & cultural heartland of the First Bulgarian Empire, the same very lands which the Great Conquerer Alexander himself once hailed from, we shall ensure history repeats itself, with us Bulghars as the next great Conquerors!"
+
+ bul_thessaly_title:0 "The Greek Connection"
+ bul_thessaly_desc:0 "In 977 Byzantine Thessaly was raided by the Bulgarian Empire. In 1066 dissatisfaction with the taxation policy led the Aromanian and Bulgarian population of Thessaly to revolt against the Byzantine Empire under the leadership of a local lord, Nikoulitzas Delphinas. The revolt, which began in Larissa, soon expanded to Trikala and later northwards to the Byzantine-Bulgarian border but ultimiatly failed. With Thessaly now in Bulgarian hands, with it's famed horses now available to us, we are now free to conquer & penetrate deeper into Greece."
+
+ bul_athens_title:0 "The Bulgarian Pantheon"
+ bul_athens_desc:0 "Greece came under Ottoman rule in the 15th century, in the decades before and after the fall of Constantinople. This is a proud moment for all Bulgarians everwhere, we have managed to pull off the amazing feat of conquering the entirety of Mainland Greece, something which even the mighty Persian Empire of old could not achieve! We now rule the Hellenes, we now lord over the oldest city in the World, Athens!" 
+
+ bul_constantinople_title:0 "City of Bulgar's Desire"
+ bul_constantinople_desc:0 "Adrianople, a major Byzantine city in Thrace, was conquered by the Ottomans sometime in the 1360s, and eventually became the Ottoman capital, until the Fall of Constantinople in 1453. The Bulgarian nation & people have seemingly done the impossible, we have at last conquered all of Thrace, but not only that, we have conquered the City that was the New Rome, we have conquered the City that Constantine the Great of a united Roman Empire himself had founded so, so long ago, we have conquered the City which could not be conquered for a thousand years, now the entire World knows that we, the Bulgarian people, the New Bulgarian Empire have at long last, conquered the City of Constantinople, once the Heart of Rome, and the Center of Christian Orthoxy in the East!"
+
+ bul_aegean_title:0 "Seize the Aegean Islands"
+ bul_aegean_desc:0 "The Cyclades islands, in the middle of the Aegean, were officially annexed by the Ottomans in 1579, although they were under vassal status since the 1530s. Cyprus fell in 1571, and the Venetians retained Crete until 1669. With the conquest of the Aegean islands, we can now use them as naval bases to strike out at our enemies fleets who thought they could not be touched on the sea, but times have changed, and Bulgarian ships are going out in full force to tame the seas & take full control of our shores!"
+ 
+ bul_serbia_title:0 "The Serbian Despotate"
+ bul_serbia_desc:0 "The period after 1371, known as the Fall of the Serbian Empire saw the once-powerful state fragmented into several principalities, culminating in the Battle of Kosovo 1389 against the rising Ottoman Empire. The Ottomans finally conquered the Serbian Despotate in 1459. The Ottoman threat and eventual conquest saw massive migrations of Serbs to the west and north. We have further expanded our possessions & power by conquering Serbia to the West of us, these lands will provide us with plenty of Christian manpower that will happily help us fight against the Muslim Turks"
+
+ bul_albania_title:0 "Albanian Mountains"
+ bul_albania_desc:0 " In the first half of the 15th century, the Ottoman Empire invaded most of Albania, and the League of Lezhë was held under Skanderbeg as a ruler, who became the national hero of the Albanian medieval history. With the fall of Constantinople, the Ottoman Empire continued an extended period of conquest and expansion with its borders going deep into Southeast Europe. They reached the Albanian Ionian Sea Coast in 1385 and erected their garrisons across Southern Albania in 1415 and then occupied most of Albania in 1431. We have now secured Albania under our stable rule, much to the joy of Albanian Christians, together, we shall continue to fight against heathen & heretics!"
+
+ bul_transylvania_title:0 "Transylvanian Holdings"
+ bul_transylvania_desc:0 "The Principality of Transylvania was a semi-independent state ruled primarily by Hungarian princes, It was usually under the suzerainty of the Ottoman Empire, although the principality often had dual vassalage, Ottoman Turkish sultans and Habsburg Hungarian kings, in the 16th and 17th centuries. Now that we have conquered Transylvania, this enables us to put pressure on the powers that be up North, and it may also even allow us to militarily expand into nearby regions"
+ 
+ bul_wallachia_title:0 "Retake Wallachia"
+ bul_wallachia_desc:0 "Wallachia was under the control of the First Bulgarian Empire from its establishment in 681, until approximately the Hungarians' conquest of Transylvania at the end of the 10th century. We have now taken back all of the Wallachian lands that righfully belong to us, these lands will allow us to grow our military & economic strength, and can be used to potentially launch campaigns into nearby Poland & Hungary"
+
+ bul_danube_title:0 "Up to The Danube"
+ bul_danube_desc:0 "Between the late 14th and late 19th centuries, the Ottoman Empire competed first with the Kingdom of Serbia, Second Bulgarian Empire, Kingdom of Hungary, Principality of Wallachia, Principality of Moldavia and later with the Austrian Habsburgs, Polish?Lithuanian Commonwealth, and Russian Empire for controlling the Danube, which became the northern border of the Ottoman Empire for centuries. Many of the Ottoman?Hungarian Wars 1366?1526 and Ottoman?Habsburg wars 1526?1791 were fought along the river. We have now taken the strategically important Hungarian lands along the Danube, the Danube river itself will provide excellent border protection from hostile armies on the other side when fortified, this secure regions will give us some breathing room to focus our armies on more exposed fronts"
+
+ bul_moldova_title:0 "Moldovan Principality"
+ bul_moldova_desc:0 "For all of his success, it was under the reign of Alexander I that the first confrontation with the Ottoman Turks took place at Cetatea Alba in 1420. A deep crisis was to follow Alexandrel's long reign, with his successors battling each other in a succession of wars that divided the country until the murder of Bogdan II and the ascension of Peter III Aaron in 1451. Nevertheless, Moldavia was subject to further Hungarian interventions after that moment, as Matthias Corvinus deposed Aron and backed Alexandrel to the throne in Suceava. Petru Aron's rule also signified the beginning of Moldavia's Ottoman Empire allegiance, as the ruler agreed to pay tribute to Sultan Mehmed II. With the conquest of Moldova, we are now free to expand into Poland & Lithuania, taking lands in this region will enable us to grow even more powerful, puting previous Bulgarian Empires to shame!"
+ 
+ 
+ eng_reconcile_nantes_title:0 "Reconcile for Nantes"
+ eng_reconcile_nantes_desc:0 ""
+ eng_little_britain_title:0 "Little Britain"
+ eng_little_britain_desc:0 ""
+ eng_margaret_anjou_title:0 "Margaret D'Anjou"
+ eng_margaret_anjou_desc:0 ""
+ eng_reign_rene_title:0 "The Reign of René"
+ eng_reign_rene_desc:0 ""
+ eng_place_in_sun_title:0 "A Place in the Sun"
+ eng_place_in_sun_desc:0 ""
+
+ eng_unholy_alliance_title:0 "Unholy Alliance"
+ eng_unholy_alliance_desc:0 ""
+ eng_angevin_union_title:0 "Angevin Union"
+ eng_angevin_union_desc:0 ""
+ eng_usurp_duchy_title:0 "Usurp the Duchy"
+ eng_usurp_duchy_desc:0 ""
+
+ eng_treay_of_tours_title:0 "Treaty of Tours"
+ eng_treay_of_tours_desc:0 ""
+ eng_surrender_maine_title:0 "Surrender of Maine"
+ eng_surrender_maine_desc:0 ""
+ eng_reignite_war_title:0 "Reignite the War"
+ eng_reignite_war_desc:0 ""
+ eng_end_hyw_title:0 "End of the Hundred Years War"
+ eng_end_hyw_desc:0 ""
+ eng_reclaim_naples_title:0 "Reclaim Naples"
+ eng_reclaim_naples_desc:0 ""
+
+ eng_courting_armagnac_title:0 "Courting Armagnac"
+ eng_courting_armagnac_desc:0 ""
+ eng_new_rebel_title:0 "A New Rebel"
+ eng_new_rebel_desc:0 ""
+ eng_pass_the_bar_title:0 "Pass the Bar"
+ eng_pass_the_bar_desc:0 ""
+
+ eng_rip_arras_title:0 "Rip Up Arras"
+ eng_rip_arras_desc:0 ""
+ eng_bold_alliances_title:0 "A Bold Alliance"
+ eng_bold_alliances_desc:0 ""
+ eng_never_son_title:0 "Son He Never Had"
+ eng_never_son_desc:0 ""
+ eng_lorraine_parade_title:0 "Lorraine on your Parade"
+ eng_lorraine_parade_desc:0 "" 

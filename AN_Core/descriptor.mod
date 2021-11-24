@@ -1,0 +1,16 @@
+name="Atlas Novum REDUX"
+picture="AN_icon.png"
+replace_path="common/bookmarks"
+tags={
+	"Missions and Decisions"
+	"Historical"
+	"Map"
+	"National Ideas"
+	"Events"
+	"Expansion"
+	"New Nations"
+	"Trade"
+	"Graphics"
+}
+supported_version="1.32.*.*"
+path="C:/Users/Amyzonis/Documents/Paradox Interactive/Europa Universalis IV/mod/!improvedhistory_dev/AN_Core"

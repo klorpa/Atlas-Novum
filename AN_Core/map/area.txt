@@ -5820,16 +5820,67 @@ unused_area = {
 
 #The areas below are used within other scripts and should be not deleted
 
-#pomerelia_area = { }
+pomerelia_area = { }
 
-#sonora_y_sinaloa_area  = { }
+sonora_y_sinaloa_area  = { }
 
-#magadan_area = { }
+magadan_area = { }
 
-#netherlands_area = { }
+netherlands_area = { }
 
-#indonesian_islands_area = {  }
+indonesian_islands_area = {  }
 
-#iceland_area = { }
+iceland_area = { }
 
-#south_laos_area = { }
+south_laos_area = { }
+
+angkor_area = { }
+aqmola_area = { }
+banjar_area = { }
+banten_area = { }
+champasak_area = { }
+champasak_area = { }
+east_bavaria_area = { }
+eastern_australia_area = { }
+eastern_maine_area = { }
+huguang_area = { }
+illawara_area = { }
+iowa_area = { }
+kansas_area = { }
+lazio_area = { }
+makassar_area = { }
+maryland_area = { }
+minnessota_area = { }
+murray_river_area = { }
+new_york_area = { }
+north_brabant_area = { }
+north_malaya_area = { }
+north_queensland_area = { }
+northern_australia_area = { }
+ottawa_valley_area = { }
+patagonian_andes = { }
+peruan_coast = { }
+po_valley_area = { }
+shandong_area = { }
+silistria_area = { }
+south_carolina_piedmont_area = { }
+south_hebei_area = { }
+south_queensland_area = { }
+southern_australia_area = { }
+southern_illinois_area = { }
+st_john_valley_area = { }
+surabaya_area = { }
+tasmania_area = { }
+tay_nguyen_area = { }
+te_ika_a_maui_hauauru_area = { }
+te_ika_a_maui_waho_area = { }
+texas_plains_area = { }
+top_end_area = { }
+trois_rivieres_area = { }
+upper_franconia_area = { }
+upper_peru = { }
+vientiane_area = { }
+west_burgundy_area = { }
+west_gansu_area = { }
+western_australia_area = { }
+western_kentucky_area = { }

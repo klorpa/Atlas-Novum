@@ -12,15 +12,19 @@ religion = catholic
 hre = no
 base_tax = 5
 base_production = 6
-trade_goods = fish #The Great Herring Market of Skåne
+trade_goods = shoal_fish #The Great Herring Market of Skåne
 base_manpower = 5
 capital = "Malmø"
 is_city = yes
 
 village = yes
-temple = yes
+cathedral = yes
 school = yes
 jetty = yes
+marketplace = yes
+
+extra_cost = 8
+center_of_trade = 1
 
 
 discovered_by = eastern discovered_by = greek discovered_by = russian_group discovered_by = balkan discovered_by = caucasian
